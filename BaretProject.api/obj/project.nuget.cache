@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "azTmCKd/fZSbkK5J6+BxGZYUMaHjJYAooZ6EgTMF+OC1TG4Js1EMsiuROlIwOwBBw5A5BlEYjJhl2kzViPEoRg==",
+  "dgSpecHash": "3NXXr/09+HgrUtusHsBU4bRgRzLrS1OEATi5g1AV6RwDYg2JMrxBxcR1T4n7Mn06gg0L1uauUX3oHoDCgeP70A==",
   "success": true,
   "projectFilePath": "C:\\Users\\DFA.SYS\\Desktop\\gitis\\textproject\\BaretProject.api\\BaretProject.api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DFA.SYS\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\DFA.SYS\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\DFA.SYS\\.nuget\\packages\\fluentassertions\\6.12.0\\fluentassertions.6.12.0.nupkg.sha512",
     "C:\\Users\\DFA.SYS\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\DFA.SYS\\.nuget\\packages\\mapster\\7.3.0\\mapster.7.3.0.nupkg.sha512",
     "C:\\Users\\DFA.SYS\\.nuget\\packages\\mapster.core\\1.2.0\\mapster.core.1.2.0.nupkg.sha512",
@@ -19,7 +20,7 @@
     "C:\\Users\\DFA.SYS\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.10\\microsoft.entityframeworkcore.7.0.10.nupkg.sha512",
     "C:\\Users\\DFA.SYS\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.10\\microsoft.entityframeworkcore.abstractions.7.0.10.nupkg.sha512",
     "C:\\Users\\DFA.SYS\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.10\\microsoft.entityframeworkcore.analyzers.7.0.10.nupkg.sha512",
-    "C:\\Users\\DFA.SYS\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.0\\microsoft.entityframeworkcore.design.7.0.0.nupkg.sha512",
+    "C:\\Users\\DFA.SYS\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.10\\microsoft.entityframeworkcore.design.7.0.10.nupkg.sha512",
     "C:\\Users\\DFA.SYS\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.10\\microsoft.entityframeworkcore.relational.7.0.10.nupkg.sha512",
     "C:\\Users\\DFA.SYS\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\7.0.10\\microsoft.entityframeworkcore.sqlserver.7.0.10.nupkg.sha512",
     "C:\\Users\\DFA.SYS\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",

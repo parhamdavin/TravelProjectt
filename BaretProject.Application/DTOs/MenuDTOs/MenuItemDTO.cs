@@ -11,7 +11,7 @@ namespace BaretProject.Application.DTOs.MenuDTOs
     {
         public int KitchenId { get; set; }
         public string MenuTitle { get; set; }
-        public List<Food> Foods { get; set; }
+        public List<Foods> Foods { get; set; }
         public int FoodCount { get; set; }
 
     }

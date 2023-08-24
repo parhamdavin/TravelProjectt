@@ -10,7 +10,7 @@ namespace BaretProject.Core.Domain
         public string ClipFileName { get; set; }
 
         #region  Navigation Property
-        public virtual Food Food { get; set; }
+        public virtual Foods Food { get; set; }
         #endregion
     }
 }

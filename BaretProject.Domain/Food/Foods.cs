@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace BaretProject.Core.Domain
 {
-    public class Food:BaseEntity
+    public class Foods:BaseEntity
     {
 
         public string Name { get; set; }

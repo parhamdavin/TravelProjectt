@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BaretProject.Application.Contracts.Repositories
 {
-    public interface IFoodRepository:IGenericRepository<Food>
+    public interface IFoodRepository:IGenericRepository<Foods>
     {
     }
 }

@@ -14,21 +14,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-#region DbContext
-builder.Services.AddDbContextPool<IApplicationContext, SqlServerContext>((options) =>
-{
-    options.UseSqlServer("Data Source=.;Initial Catalog=travel;Integrated Security=True;MultipleActiveResultSets=True;TrustServerCertificate=True");
-}, poolSize: 16);
-#endregion
-
-builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 
 var app = builder.Build();
 
-app.UseExceptionHandler(app =>
-{
-    app.UseMiddleware<ErrorHandlerMiddleware>();
-});
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

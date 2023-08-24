@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "qvmC3fe7PNyK5FyJPfBg9WBKYOLuKJEBY4PKf3qBn4QnadT0Nfpg43oIxk7gIdh1uh2km2wcQOOjeaRK7v/Qhg==",
+  "dgSpecHash": "7KPvuZQBr2WM72dKlGKSLV6IUL0VAVV/8uaqACcJmYtVuMYXU3Kf0h0pZh0BBNjX7DUW9oYZ29sk/CQtAex3GA==",
   "success": true,
   "projectFilePath": "C:\\Users\\DFA.SYS\\Desktop\\gitis\\textproject\\BaretProject.Infrastructure\\BaretProject.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DFA.SYS\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\DFA.SYS\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\DFA.SYS\\.nuget\\packages\\fluentassertions\\6.12.0\\fluentassertions.6.12.0.nupkg.sha512",
     "C:\\Users\\DFA.SYS\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\DFA.SYS\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\DFA.SYS\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\DFA.SYS\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\DFA.SYS\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\DFA.SYS\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.2\\microsoft.data.sqlclient.5.0.2.nupkg.sha512",

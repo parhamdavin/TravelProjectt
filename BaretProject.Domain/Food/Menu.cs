@@ -7,7 +7,7 @@ namespace BaretProject.Core.Domain
 
         #region  Navigation Property
         public virtual Kitchen Kitchen { get; set; }
-        public virtual ICollection<Food> Foods { get; set; }
+        public virtual ICollection<Foods> Foods { get; set; }
       
         #endregion
 

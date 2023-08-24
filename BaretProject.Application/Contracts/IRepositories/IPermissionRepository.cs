@@ -9,5 +9,6 @@ namespace BaretProject.Application.Contracts.Repositories
 {
     public interface IPermissionRepository:IGenericRepository<Permission>
     {
+
     }
 }

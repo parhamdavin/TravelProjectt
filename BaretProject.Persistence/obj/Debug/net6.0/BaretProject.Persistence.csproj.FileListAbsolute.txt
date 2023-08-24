@@ -1,0 +1,12 @@
+D:\BaretProject\BaretProject.Persistence\bin\Debug\net6.0\BaretProject.Persistence.deps.json
+D:\BaretProject\BaretProject.Persistence\bin\Debug\net6.0\BaretProject.Persistence.dll
+D:\BaretProject\BaretProject.Persistence\bin\Debug\net6.0\BaretProject.Persistence.pdb
+D:\BaretProject\BaretProject.Persistence\obj\Debug\net6.0\BaretProject.Persistence.csproj.AssemblyReference.cache
+D:\BaretProject\BaretProject.Persistence\obj\Debug\net6.0\BaretProject.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\BaretProject\BaretProject.Persistence\obj\Debug\net6.0\BaretProject.Persistence.AssemblyInfoInputs.cache
+D:\BaretProject\BaretProject.Persistence\obj\Debug\net6.0\BaretProject.Persistence.AssemblyInfo.cs
+D:\BaretProject\BaretProject.Persistence\obj\Debug\net6.0\BaretProject.Persistence.csproj.CoreCompileInputs.cache
+D:\BaretProject\BaretProject.Persistence\obj\Debug\net6.0\BaretProject.Persistence.dll
+D:\BaretProject\BaretProject.Persistence\obj\Debug\net6.0\refint\BaretProject.Persistence.dll
+D:\BaretProject\BaretProject.Persistence\obj\Debug\net6.0\BaretProject.Persistence.pdb
+D:\BaretProject\BaretProject.Persistence\obj\Debug\net6.0\ref\BaretProject.Persistence.dll

@@ -1,0 +1,12 @@
+D:\BaretProject\BaretProject.Domain\bin\Debug\net6.0\BaretProject.Domain.deps.json
+D:\BaretProject\BaretProject.Domain\bin\Debug\net6.0\BaretProject.Domain.dll
+D:\BaretProject\BaretProject.Domain\bin\Debug\net6.0\BaretProject.Domain.pdb
+D:\BaretProject\BaretProject.Domain\obj\Debug\net6.0\BaretProject.Domain.csproj.AssemblyReference.cache
+D:\BaretProject\BaretProject.Domain\obj\Debug\net6.0\BaretProject.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\BaretProject\BaretProject.Domain\obj\Debug\net6.0\BaretProject.Domain.AssemblyInfoInputs.cache
+D:\BaretProject\BaretProject.Domain\obj\Debug\net6.0\BaretProject.Domain.AssemblyInfo.cs
+D:\BaretProject\BaretProject.Domain\obj\Debug\net6.0\BaretProject.Domain.csproj.CoreCompileInputs.cache
+D:\BaretProject\BaretProject.Domain\obj\Debug\net6.0\BaretProject.Domain.dll
+D:\BaretProject\BaretProject.Domain\obj\Debug\net6.0\refint\BaretProject.Domain.dll
+D:\BaretProject\BaretProject.Domain\obj\Debug\net6.0\BaretProject.Domain.pdb
+D:\BaretProject\BaretProject.Domain\obj\Debug\net6.0\ref\BaretProject.Domain.dll

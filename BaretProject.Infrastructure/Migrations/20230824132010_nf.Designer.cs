@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BaretProject.Infrastructure.Migrations
 {
     [DbContext(typeof(SqlServerContext))]
-    [Migration("20230817084824_ddd")]
-    partial class ddd
+    [Migration("20230824132010_nf")]
+    partial class nf
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -608,7 +608,7 @@ namespace BaretProject.Infrastructure.Migrations
                         new
                         {
                             Id = 1,
-                            InsertTime = new DateTime(2023, 8, 17, 12, 18, 24, 455, DateTimeKind.Local).AddTicks(8976),
+                            InsertTime = new DateTime(2023, 8, 24, 16, 50, 9, 812, DateTimeKind.Local).AddTicks(5867),
                             IsRemoved = false,
                             Role = "Admin",
                             UpdateTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -616,7 +616,7 @@ namespace BaretProject.Infrastructure.Migrations
                         new
                         {
                             Id = 2,
-                            InsertTime = new DateTime(2023, 8, 17, 12, 18, 24, 455, DateTimeKind.Local).AddTicks(9037),
+                            InsertTime = new DateTime(2023, 8, 24, 16, 50, 9, 812, DateTimeKind.Local).AddTicks(5982),
                             IsRemoved = false,
                             Role = "Operator",
                             UpdateTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -624,7 +624,7 @@ namespace BaretProject.Infrastructure.Migrations
                         new
                         {
                             Id = 3,
-                            InsertTime = new DateTime(2023, 8, 17, 12, 18, 24, 455, DateTimeKind.Local).AddTicks(9041),
+                            InsertTime = new DateTime(2023, 8, 24, 16, 50, 9, 812, DateTimeKind.Local).AddTicks(5996),
                             IsRemoved = false,
                             Role = "Customer",
                             UpdateTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)

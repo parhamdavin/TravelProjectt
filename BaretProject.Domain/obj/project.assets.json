@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\BaretProject\\BaretProject.Domain\\BaretProject.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\DFA.SYS\\Desktop\\gitis\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj",
       "projectName": "BaretProject.Domain",
-      "projectPath": "d:\\BaretProject\\BaretProject.Domain\\BaretProject.Domain.csproj",
+      "projectPath": "C:\\Users\\DFA.SYS\\Desktop\\gitis\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj",
       "packagesPath": "C:\\Users\\DFA.SYS\\.nuget\\packages\\",
-      "outputPath": "d:\\BaretProject\\BaretProject.Domain\\obj\\",
+      "outputPath": "C:\\Users\\DFA.SYS\\Desktop\\gitis\\textproject\\BaretProject.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DFA.SYS\\AppData\\Roaming\\NuGet\\NuGet.Config",

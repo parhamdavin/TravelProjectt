@@ -10,3 +10,15 @@ D:\BaretProject\BaretProject.Persistence\obj\Debug\net6.0\BaretProject.Persisten
 D:\BaretProject\BaretProject.Persistence\obj\Debug\net6.0\refint\BaretProject.Persistence.dll
 D:\BaretProject\BaretProject.Persistence\obj\Debug\net6.0\BaretProject.Persistence.pdb
 D:\BaretProject\BaretProject.Persistence\obj\Debug\net6.0\ref\BaretProject.Persistence.dll
+C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.Persistence\bin\Debug\net6.0\BaretProject.Persistence.deps.json
+C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.Persistence\bin\Debug\net6.0\BaretProject.Persistence.dll
+C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.Persistence\bin\Debug\net6.0\BaretProject.Persistence.pdb
+C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.Persistence\obj\Debug\net6.0\BaretProject.Persistence.csproj.AssemblyReference.cache
+C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.Persistence\obj\Debug\net6.0\BaretProject.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.Persistence\obj\Debug\net6.0\BaretProject.Persistence.AssemblyInfoInputs.cache
+C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.Persistence\obj\Debug\net6.0\BaretProject.Persistence.AssemblyInfo.cs
+C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.Persistence\obj\Debug\net6.0\BaretProject.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.Persistence\obj\Debug\net6.0\BaretProject.Persistence.dll
+C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.Persistence\obj\Debug\net6.0\refint\BaretProject.Persistence.dll
+C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.Persistence\obj\Debug\net6.0\BaretProject.Persistence.pdb
+C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.Persistence\obj\Debug\net6.0\ref\BaretProject.Persistence.dll

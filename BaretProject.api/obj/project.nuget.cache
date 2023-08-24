@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8xYWQzBM/lMe+2Micu2JZ1GJzIwM2d5BQtNZF0FFw+Z+EjhqSYpPNxYLoUF9WzYTOlbm+MZg5Nm6DsY8V3A85g==",
+  "dgSpecHash": "azTmCKd/fZSbkK5J6+BxGZYUMaHjJYAooZ6EgTMF+OC1TG4Js1EMsiuROlIwOwBBw5A5BlEYjJhl2kzViPEoRg==",
   "success": true,
-  "projectFilePath": "D:\\BaretProject\\BaretProject.api\\BaretProject.api.csproj",
+  "projectFilePath": "C:\\Users\\DFA.SYS\\Desktop\\gitis\\textproject\\BaretProject.api\\BaretProject.api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DFA.SYS\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\DFA.SYS\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

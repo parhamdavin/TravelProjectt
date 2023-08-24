@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace BaretProject.Infrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class ddd : Migration
+    public partial class nf : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -547,9 +547,9 @@ namespace BaretProject.Infrastructure.Migrations
                 columns: new[] { "Id", "InsertTime", "IsRemoved", "RemoveTime", "Role", "UpdateTime" },
                 values: new object[,]
                 {
-                    { 1, new DateTime(2023, 8, 17, 12, 18, 24, 455, DateTimeKind.Local).AddTicks(8976), false, null, "Admin", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 2, new DateTime(2023, 8, 17, 12, 18, 24, 455, DateTimeKind.Local).AddTicks(9037), false, null, "Operator", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 3, new DateTime(2023, 8, 17, 12, 18, 24, 455, DateTimeKind.Local).AddTicks(9041), false, null, "Customer", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) }
+                    { 1, new DateTime(2023, 8, 24, 16, 50, 9, 812, DateTimeKind.Local).AddTicks(5867), false, null, "Admin", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 2, new DateTime(2023, 8, 24, 16, 50, 9, 812, DateTimeKind.Local).AddTicks(5982), false, null, "Operator", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 3, new DateTime(2023, 8, 24, 16, 50, 9, 812, DateTimeKind.Local).AddTicks(5996), false, null, "Customer", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) }
                 });
 
             migrationBuilder.CreateIndex(

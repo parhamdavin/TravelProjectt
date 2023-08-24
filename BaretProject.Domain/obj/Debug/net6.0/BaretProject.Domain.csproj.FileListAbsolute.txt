@@ -10,3 +10,15 @@ D:\BaretProject\BaretProject.Domain\obj\Debug\net6.0\BaretProject.Domain.dll
 D:\BaretProject\BaretProject.Domain\obj\Debug\net6.0\refint\BaretProject.Domain.dll
 D:\BaretProject\BaretProject.Domain\obj\Debug\net6.0\BaretProject.Domain.pdb
 D:\BaretProject\BaretProject.Domain\obj\Debug\net6.0\ref\BaretProject.Domain.dll
+C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.Domain\bin\Debug\net6.0\BaretProject.Domain.deps.json
+C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.Domain\bin\Debug\net6.0\BaretProject.Domain.dll
+C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.Domain\bin\Debug\net6.0\BaretProject.Domain.pdb
+C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.Domain\obj\Debug\net6.0\BaretProject.Domain.csproj.AssemblyReference.cache
+C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.Domain\obj\Debug\net6.0\BaretProject.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.Domain\obj\Debug\net6.0\BaretProject.Domain.AssemblyInfoInputs.cache
+C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.Domain\obj\Debug\net6.0\BaretProject.Domain.AssemblyInfo.cs
+C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.Domain\obj\Debug\net6.0\BaretProject.Domain.csproj.CoreCompileInputs.cache
+C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.Domain\obj\Debug\net6.0\BaretProject.Domain.dll
+C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.Domain\obj\Debug\net6.0\refint\BaretProject.Domain.dll
+C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.Domain\obj\Debug\net6.0\BaretProject.Domain.pdb
+C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.Domain\obj\Debug\net6.0\ref\BaretProject.Domain.dll

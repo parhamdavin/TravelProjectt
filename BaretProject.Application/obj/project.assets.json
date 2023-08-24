@@ -3393,11 +3393,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\BaretProject\\BaretProject.Application\\BaretProject.Application.csproj",
+      "projectUniqueName": "C:\\Users\\DFA.SYS\\Desktop\\gitis\\textproject\\BaretProject.Application\\BaretProject.Application.csproj",
       "projectName": "BaretProject.Application",
-      "projectPath": "D:\\BaretProject\\BaretProject.Application\\BaretProject.Application.csproj",
+      "projectPath": "C:\\Users\\DFA.SYS\\Desktop\\gitis\\textproject\\BaretProject.Application\\BaretProject.Application.csproj",
       "packagesPath": "C:\\Users\\DFA.SYS\\.nuget\\packages\\",
-      "outputPath": "D:\\BaretProject\\BaretProject.Application\\obj\\",
+      "outputPath": "C:\\Users\\DFA.SYS\\Desktop\\gitis\\textproject\\BaretProject.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DFA.SYS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3414,8 +3414,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\BaretProject\\BaretProject.Domain\\BaretProject.Domain.csproj": {
-              "projectPath": "D:\\BaretProject\\BaretProject.Domain\\BaretProject.Domain.csproj"
+            "C:\\Users\\DFA.SYS\\Desktop\\gitis\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj": {
+              "projectPath": "C:\\Users\\DFA.SYS\\Desktop\\gitis\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj"
             }
           }
         }

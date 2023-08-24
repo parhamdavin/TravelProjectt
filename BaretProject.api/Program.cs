@@ -17,7 +17,7 @@ builder.Services.AddSwaggerGen();
 #region DbContext
 builder.Services.AddDbContextPool<IApplicationContext, SqlServerContext>((options) =>
 {
-    options.UseSqlServer("Data Source=.;Initial Catalog=DB_name;Integrated Security=True;MultipleActiveResultSets=True;TrustServerCertificate=True");
+    options.UseSqlServer("Data Source=.;Initial Catalog=travel;Integrated Security=True;MultipleActiveResultSets=True;TrustServerCertificate=True");
 }, poolSize: 16);
 #endregion
 

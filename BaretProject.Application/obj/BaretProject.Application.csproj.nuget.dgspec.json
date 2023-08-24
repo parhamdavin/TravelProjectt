@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BaretProject\\BaretProject.Application\\BaretProject.Application.csproj": {}
+    "C:\\Users\\DFA.SYS\\Desktop\\gitis\\textproject\\BaretProject.Application\\BaretProject.Application.csproj": {}
   },
   "projects": {
-    "D:\\BaretProject\\BaretProject.Application\\BaretProject.Application.csproj": {
+    "C:\\Users\\DFA.SYS\\Desktop\\gitis\\textproject\\BaretProject.Application\\BaretProject.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BaretProject\\BaretProject.Application\\BaretProject.Application.csproj",
+        "projectUniqueName": "C:\\Users\\DFA.SYS\\Desktop\\gitis\\textproject\\BaretProject.Application\\BaretProject.Application.csproj",
         "projectName": "BaretProject.Application",
-        "projectPath": "D:\\BaretProject\\BaretProject.Application\\BaretProject.Application.csproj",
+        "projectPath": "C:\\Users\\DFA.SYS\\Desktop\\gitis\\textproject\\BaretProject.Application\\BaretProject.Application.csproj",
         "packagesPath": "C:\\Users\\DFA.SYS\\.nuget\\packages\\",
-        "outputPath": "D:\\BaretProject\\BaretProject.Application\\obj\\",
+        "outputPath": "C:\\Users\\DFA.SYS\\Desktop\\gitis\\textproject\\BaretProject.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DFA.SYS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\BaretProject\\BaretProject.Domain\\BaretProject.Domain.csproj": {
-                "projectPath": "D:\\BaretProject\\BaretProject.Domain\\BaretProject.Domain.csproj"
+              "C:\\Users\\DFA.SYS\\Desktop\\gitis\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj": {
+                "projectPath": "C:\\Users\\DFA.SYS\\Desktop\\gitis\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj"
               }
             }
           }
@@ -85,14 +85,14 @@
         }
       }
     },
-    "D:\\BaretProject\\BaretProject.Domain\\BaretProject.Domain.csproj": {
+    "C:\\Users\\DFA.SYS\\Desktop\\gitis\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BaretProject\\BaretProject.Domain\\BaretProject.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\DFA.SYS\\Desktop\\gitis\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj",
         "projectName": "BaretProject.Domain",
-        "projectPath": "D:\\BaretProject\\BaretProject.Domain\\BaretProject.Domain.csproj",
+        "projectPath": "C:\\Users\\DFA.SYS\\Desktop\\gitis\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj",
         "packagesPath": "C:\\Users\\DFA.SYS\\.nuget\\packages\\",
-        "outputPath": "D:\\BaretProject\\BaretProject.Domain\\obj\\",
+        "outputPath": "C:\\Users\\DFA.SYS\\Desktop\\gitis\\textproject\\BaretProject.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DFA.SYS\\AppData\\Roaming\\NuGet\\NuGet.Config",

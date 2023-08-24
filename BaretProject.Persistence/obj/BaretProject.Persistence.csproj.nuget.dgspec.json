@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BaretProject\\BaretProject.Persistence\\BaretProject.Persistence.csproj": {}
+    "C:\\Users\\DFA.SYS\\Desktop\\gitis\\textproject\\BaretProject.Persistence\\BaretProject.Persistence.csproj": {}
   },
   "projects": {
-    "D:\\BaretProject\\BaretProject.Persistence\\BaretProject.Persistence.csproj": {
+    "C:\\Users\\DFA.SYS\\Desktop\\gitis\\textproject\\BaretProject.Persistence\\BaretProject.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BaretProject\\BaretProject.Persistence\\BaretProject.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\DFA.SYS\\Desktop\\gitis\\textproject\\BaretProject.Persistence\\BaretProject.Persistence.csproj",
         "projectName": "BaretProject.Persistence",
-        "projectPath": "D:\\BaretProject\\BaretProject.Persistence\\BaretProject.Persistence.csproj",
+        "projectPath": "C:\\Users\\DFA.SYS\\Desktop\\gitis\\textproject\\BaretProject.Persistence\\BaretProject.Persistence.csproj",
         "packagesPath": "C:\\Users\\DFA.SYS\\.nuget\\packages\\",
-        "outputPath": "D:\\BaretProject\\BaretProject.Persistence\\obj\\",
+        "outputPath": "C:\\Users\\DFA.SYS\\Desktop\\gitis\\textproject\\BaretProject.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DFA.SYS\\AppData\\Roaming\\NuGet\\NuGet.Config",

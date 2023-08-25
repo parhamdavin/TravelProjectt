@@ -1,6 +1,6 @@
 ﻿using BaretProject.Application.DTOs.KitchenDTOs.KitckenManagerReDTO;
 
-namespace BaretProject.Application.Services.Kitchen.KitchenManagerReService
+namespace BaretProject.Application.Services.Kitchens.KitchenManagerReService
 {
     public interface IKitchenManagerReService 
     {

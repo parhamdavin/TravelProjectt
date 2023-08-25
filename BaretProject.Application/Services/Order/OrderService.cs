@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace BaretProject.Application.Services.Order
 {
-    internal class OrderService
+    public class OrderService:IOrderService
     {
+
     }
 }

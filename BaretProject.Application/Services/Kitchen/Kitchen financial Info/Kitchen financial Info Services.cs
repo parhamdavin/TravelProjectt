@@ -11,7 +11,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BaretProject.Application.Services.Kitchen.Kitchen_financial_Info
+namespace BaretProject.Application.Services.Kitchens.Kitchen_financial_Info
 {
     public class Kitchen_financial_Info_Services : IKitchen_financial_Info_Services
     {

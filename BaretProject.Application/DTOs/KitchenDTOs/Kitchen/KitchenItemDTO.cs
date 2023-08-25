@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BaretProject.Application.DTOs.KitchenDTOs.Kitchen
 {
-    internal class KitchenItemDTO : BaseItemDTO
+    public class KitchenItemDTO : BaseItemDTO
     {
         public string KName { get; set; }
         public string Adress { get; set; }

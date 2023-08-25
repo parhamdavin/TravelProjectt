@@ -1,7 +1,7 @@
 ﻿using BaretProject.Application.DTOs.KitchenDTOs.KitckenManagerReDTO;
 using BaretProject.Core.Domain;
 
-namespace BaretProject.Application.Services.Kitchen.KitchenManagerReService
+namespace BaretProject.Application.Services.Kitchens.KitchenManagerReService
 {
     public static class Mapper
     {

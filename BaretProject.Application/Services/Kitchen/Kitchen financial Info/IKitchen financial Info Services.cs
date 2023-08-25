@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BaretProject.Application.Services.Kitchen.Kitchen_financial_Info
+namespace BaretProject.Application.Services.Kitchens.Kitchen_financial_Info
 {
     public interface IKitchen_financial_Info_Services
     {

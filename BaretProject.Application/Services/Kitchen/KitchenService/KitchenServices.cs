@@ -1,4 +1,5 @@
 ﻿using BaretProject.Application.Contracts.Repositories;
+using BaretProject.Application.DTOs.FoodDTOs;
 using BaretProject.Application.DTOs.KitchenDTOs.Kitchen;
 using BaretProject.Application.Extention;
 using BaretProject.Core.Domain;
@@ -14,7 +15,7 @@ namespace BaretProject.Application.Services.Kitchens.KitchenService
     public class KitchenServices : IKitchenService
     {
 
-        #region Feild
+        #region Filed
         private readonly IKitchenRepository _repository;
         public KitchenServices(IKitchenRepository repository)
         {
@@ -23,7 +24,7 @@ namespace BaretProject.Application.Services.Kitchens.KitchenService
         #endregion
         public async Task<IEnumerable<KitchenItemDTO>> GetAll()
         {
-            var list = await _repository.TableAsNoTracking.Where(k => !k.IsRemoved).Select(kitchen => new KitchenDTO(
+            var list = await _repository.TableAsNoTracking.Where(k => !k.IsRemoved).Select(kitchen => new KitchenItemDTO
             {
                 KName = kitchen.KName,
                 Adress = kitchen.Address,
@@ -44,7 +45,8 @@ namespace BaretProject.Application.Services.Kitchens.KitchenService
         public  bool IExist(int id)
         {
             var pro = _repository.FindByIdAsNoTracking(id);
-            if (pro is not null) return false;
+            if (pro is not null)
+                return false;
             return true;
         }
 
@@ -70,7 +72,8 @@ namespace BaretProject.Application.Services.Kitchens.KitchenService
             entity.KName = kitchenDTO.KName;
             entity.Address = kitchenDTO.Adress;
             entity.Phone = kitchenDTO.Phone;
-           
+            await _repository.UpdateAsync(entity);
+            return kitchenDTO ;
         }
     }
 }

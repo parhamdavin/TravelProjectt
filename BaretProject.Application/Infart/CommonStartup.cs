@@ -25,7 +25,7 @@ namespace BaretProject.Application.Infart
             services.AddScoped<IFoodService, FoodService>();
             services.AddScoped<IFoodClipService, FoodClipService>();
             services.AddScoped<IMenuService, MenuService>();
-            services.AddScoped<>
+           
 
         }
 

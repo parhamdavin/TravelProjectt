@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BaretProject.Application.DTOs.PermissionDTOs
 {
-    public class PermissionDTo:BaseDTO
+    public class PermissionDTO:BaseDTO
     {
         public string PermissionTitle { get; set; }
     }

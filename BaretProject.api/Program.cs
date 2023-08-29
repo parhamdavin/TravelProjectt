@@ -4,6 +4,7 @@ using BaretProject.Infrastructure.Repository;
 using Microsoft.EntityFrameworkCore;
 using BaretProject.Application.Contracts;
 using BaretProject.Application.MiddleWare;
+using BaretProject.Persistence.Infrat.Extension;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -26,5 +27,5 @@ if (app.Environment.IsDevelopment())
 
 
 app.MapControllers();
-
+app.ConfigureRequestPipeline();
 app.Run();

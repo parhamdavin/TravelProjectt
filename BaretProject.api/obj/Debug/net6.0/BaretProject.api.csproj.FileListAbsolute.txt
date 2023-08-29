@@ -189,3 +189,5 @@ C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.api\obj\Debug\net6.0\Bar
 C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.api\obj\Debug\net6.0\BaretProject.api.genruntimeconfig.cache
 C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.api\obj\Debug\net6.0\ref\BaretProject.api.dll
 C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.api\bin\Debug\net6.0\FluentAssertions.dll
+C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.api\bin\Debug\net6.0\BaretProject.Persistence.dll
+C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.api\bin\Debug\net6.0\BaretProject.Persistence.pdb

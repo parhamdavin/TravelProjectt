@@ -11,7 +11,8 @@
           "BaretProject.Application": "1.0.0",
           "BaretProject.Infrastructure": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "7.0.10",
-          "Swashbuckle.AspNetCore": "6.2.3"
+          "Swashbuckle.AspNetCore": "6.2.3",
+          "BaretProject.Persistence": "1.0.0.0"
         },
         "runtime": {
           "BaretProject.api.dll": {}
@@ -835,6 +836,14 @@
         "runtime": {
           "BaretProject.Infrastructure.dll": {}
         }
+      },
+      "BaretProject.Persistence/1.0.0.0": {
+        "runtime": {
+          "BaretProject.Persistence.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -1423,6 +1432,11 @@
     },
     "BaretProject.Infrastructure/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BaretProject.Persistence/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

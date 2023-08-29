@@ -3,6 +3,7 @@ using BaretProject.Application.DTOs.PermissionDTOs;
 using BaretProject.Application.DTOs.RoleDTOs;
 using BaretProject.Application.Extention;
 using BaretProject.Core.Domain;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -68,6 +69,7 @@ namespace BaretProject.Application.Services.Permissions
             var entity = await _repository.FindByIdAsync(permissionDTO.ID);
             permissionDTO.ID = entity.Id;
             permissionDTO.PermissionTitle = entity.PermissionTitle;
+            
             await _repository.UpdateAsync(entity);
             return permissionDTO;
         }

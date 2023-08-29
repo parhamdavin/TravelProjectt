@@ -22,3 +22,17 @@ C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.Persistence\obj\Debug\ne
 C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.Persistence\obj\Debug\net6.0\refint\BaretProject.Persistence.dll
 C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.Persistence\obj\Debug\net6.0\BaretProject.Persistence.pdb
 C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.Persistence\obj\Debug\net6.0\ref\BaretProject.Persistence.dll
+C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.Persistence\bin\Debug\net6.0\BaretProject.api.deps.json
+C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.Persistence\bin\Debug\net6.0\BaretProject.api.runtimeconfig.json
+C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.Persistence\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.Persistence\bin\Debug\net6.0\appsettings.json
+C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.Persistence\bin\Debug\net6.0\BaretProject.api.exe
+C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.Persistence\bin\Debug\net6.0\BaretProject.api.dll
+C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.Persistence\bin\Debug\net6.0\BaretProject.Application.dll
+C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.Persistence\bin\Debug\net6.0\BaretProject.Domain.dll
+C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.Persistence\bin\Debug\net6.0\BaretProject.Infrastructure.dll
+C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.Persistence\bin\Debug\net6.0\BaretProject.api.pdb
+C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.Persistence\bin\Debug\net6.0\BaretProject.Domain.pdb
+C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.Persistence\bin\Debug\net6.0\BaretProject.Application.pdb
+C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.Persistence\bin\Debug\net6.0\BaretProject.Infrastructure.pdb
+C:\Users\DFA.SYS\Desktop\gitis\textproject\BaretProject.Persistence\obj\Debug\net6.0\BaretProject.Persistence.csproj.CopyComplete

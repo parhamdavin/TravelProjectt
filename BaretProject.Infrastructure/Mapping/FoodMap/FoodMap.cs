@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 
 namespace BaretProject.Infrastructure.Mapping.FoodMap
 {
-    public class FoodMap : IEntityTypeConfiguration<Food>
+    public class FoodMap : IEntityTypeConfiguration<Foods>
     {
-        public void Configure(EntityTypeBuilder<Food> builder)
+        public void Configure(EntityTypeBuilder<Foods> builder)
         {
            
         }

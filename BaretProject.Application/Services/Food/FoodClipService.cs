@@ -2,6 +2,7 @@
 using BaretProject.Application.DTOs.FoodDTOs;
 using BaretProject.Application.DTOs.ProvinceDTOs;
 using BaretProject.Application.Extention;
+using BaretProject.Application.Services.Food;
 using BaretProject.Core.Domain;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -10,7 +11,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BaretProject.Application.Services.Food
+namespace BaretProject.Application.Services.FoodService
 {
     
     public class FoodClipService : IFoodClipService

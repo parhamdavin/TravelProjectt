@@ -7,6 +7,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace BaretProject.Application.Services.Food
+    
+
 {
     public interface IFoodClipService
     {

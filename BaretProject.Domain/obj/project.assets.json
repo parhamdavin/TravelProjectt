@@ -283,19 +283,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DFA.SYS\\.nuget\\packages\\": {}
+    "C:\\Users\\rm\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DFA.SYS\\Desktop\\gitis\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj",
+      "projectUniqueName": "D:\\MyProject\\BaretProject\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj",
       "projectName": "BaretProject.Domain",
-      "projectPath": "C:\\Users\\DFA.SYS\\Desktop\\gitis\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj",
-      "packagesPath": "C:\\Users\\DFA.SYS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DFA.SYS\\Desktop\\gitis\\textproject\\BaretProject.Domain\\obj\\",
+      "projectPath": "D:\\MyProject\\BaretProject\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj",
+      "packagesPath": "C:\\Users\\rm\\.nuget\\packages\\",
+      "outputPath": "D:\\MyProject\\BaretProject\\textproject\\BaretProject.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\DFA.SYS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\rm\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -350,7 +350,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

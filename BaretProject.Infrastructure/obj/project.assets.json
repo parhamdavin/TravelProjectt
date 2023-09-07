@@ -3638,19 +3638,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DFA.SYS\\.nuget\\packages\\": {}
+    "C:\\Users\\rm\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DFA.SYS\\Desktop\\gitis\\textproject\\BaretProject.Infrastructure\\BaretProject.Infrastructure.csproj",
+      "projectUniqueName": "D:\\MyProject\\BaretProject\\textproject\\BaretProject.Infrastructure\\BaretProject.Infrastructure.csproj",
       "projectName": "BaretProject.Infrastructure",
-      "projectPath": "C:\\Users\\DFA.SYS\\Desktop\\gitis\\textproject\\BaretProject.Infrastructure\\BaretProject.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\DFA.SYS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DFA.SYS\\Desktop\\gitis\\textproject\\BaretProject.Infrastructure\\obj\\",
+      "projectPath": "D:\\MyProject\\BaretProject\\textproject\\BaretProject.Infrastructure\\BaretProject.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\rm\\.nuget\\packages\\",
+      "outputPath": "D:\\MyProject\\BaretProject\\textproject\\BaretProject.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\DFA.SYS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\rm\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3664,8 +3664,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\DFA.SYS\\Desktop\\gitis\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj": {
-              "projectPath": "C:\\Users\\DFA.SYS\\Desktop\\gitis\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj"
+            "D:\\MyProject\\BaretProject\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj": {
+              "projectPath": "D:\\MyProject\\BaretProject\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj"
             }
           }
         }
@@ -3721,7 +3721,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

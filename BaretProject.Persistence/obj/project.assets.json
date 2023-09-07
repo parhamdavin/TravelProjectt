@@ -3798,19 +3798,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DFA.SYS\\.nuget\\packages\\": {}
+    "C:\\Users\\rm\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DFA.SYS\\Desktop\\gitis\\textproject\\BaretProject.Persistence\\BaretProject.Persistence.csproj",
+      "projectUniqueName": "D:\\MyProject\\BaretProject\\textproject\\BaretProject.Persistence\\BaretProject.Persistence.csproj",
       "projectName": "BaretProject.Persistence",
-      "projectPath": "C:\\Users\\DFA.SYS\\Desktop\\gitis\\textproject\\BaretProject.Persistence\\BaretProject.Persistence.csproj",
-      "packagesPath": "C:\\Users\\DFA.SYS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DFA.SYS\\Desktop\\gitis\\textproject\\BaretProject.Persistence\\obj\\",
+      "projectPath": "D:\\MyProject\\BaretProject\\textproject\\BaretProject.Persistence\\BaretProject.Persistence.csproj",
+      "packagesPath": "C:\\Users\\rm\\.nuget\\packages\\",
+      "outputPath": "D:\\MyProject\\BaretProject\\textproject\\BaretProject.Persistence\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\DFA.SYS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\rm\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3824,11 +3824,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\DFA.SYS\\Desktop\\gitis\\textproject\\BaretProject.api\\BaretProject.api.csproj": {
-              "projectPath": "C:\\Users\\DFA.SYS\\Desktop\\gitis\\textproject\\BaretProject.api\\BaretProject.api.csproj"
+            "D:\\MyProject\\BaretProject\\textproject\\BaretProject.api\\BaretProject.api.csproj": {
+              "projectPath": "D:\\MyProject\\BaretProject\\textproject\\BaretProject.api\\BaretProject.api.csproj"
             },
-            "C:\\Users\\DFA.SYS\\Desktop\\gitis\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj": {
-              "projectPath": "C:\\Users\\DFA.SYS\\Desktop\\gitis\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj"
+            "D:\\MyProject\\BaretProject\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj": {
+              "projectPath": "D:\\MyProject\\BaretProject\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj"
             }
           }
         }
@@ -3872,7 +3872,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

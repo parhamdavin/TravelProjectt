@@ -1,5 +1,6 @@
 ﻿
 using BaretProject.Application.Contracts;
+using BaretProject.Application.Contracts.IRepositories;
 using BaretProject.Application.Contracts.Repositories;
 using BaretProject.Application.Services.Food.Menu;
 using BaretProject.Domain.Infrast;
@@ -36,6 +37,7 @@ namespace BaretProject.Infrastructure.Infrat
             services.AddScoped<IFoodRepository, FoodRepository>();
             services.AddScoped<IFoodClipRepository, FoodClipRepository>();
             services.AddScoped<IGroupFoodRepository, GroupFoodRepository>();
+            services.AddScoped<IKitckenManagerReRepository, KitckenManagerReRepository>();
             services.AddScoped<IKitchenManagerRepository, KitchenManagerRepository>();
             services.AddScoped<IKitchen_financial_InfoRepository, Kitchen_financial_InfoRepository>();
             services.AddScoped<IKitchenRepository, KitckenRepository>();
@@ -49,6 +51,7 @@ namespace BaretProject.Infrastructure.Infrat
             services.AddScoped<IWalletRepository, WalletRepository>();
             services.AddScoped<IWalletTypeRepository, WalletTypeRepository>();
             services.AddScoped<IBusiness_TypeRepository, BusinessTypeRepository>();
+            services.AddLogging()
             services.AddDbContextPool<IApplicationContext, SqlServerContext>((options) =>
             {
                 options.UseSqlServer("Data Source=.;Initial Catalog=travel;Integrated Security=True;MultipleActiveResultSets=True;TrustServerCertificate=True");

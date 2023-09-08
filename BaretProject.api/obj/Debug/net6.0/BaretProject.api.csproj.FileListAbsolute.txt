@@ -288,3 +288,4 @@ D:\MyProject\BaretProject\textproject\BaretProject.api\obj\Debug\net6.0\scopedcs
 D:\MyProject\BaretProject\textproject\BaretProject.api\obj\Debug\net6.0\BaretProject.api.csproj.CopyComplete
 D:\MyProject\BaretProject\textproject\BaretProject.api\obj\Debug\net6.0\BaretProject.api.genruntimeconfig.cache
 D:\MyProject\BaretProject\textproject\BaretProject.api\obj\Debug\net6.0\ref\BaretProject.api.dll
+D:\MyProject\BaretProject\textproject\BaretProject.api\obj\Debug\net6.0\BaretProject.api.MvcApplicationPartsAssemblyInfo.cs

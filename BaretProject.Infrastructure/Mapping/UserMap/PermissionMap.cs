@@ -8,8 +8,8 @@ namespace BaretProject.Infrastructure
     public class PermissionMap : IEntityTypeConfiguration<Permission>
     {
         public void Configure(EntityTypeBuilder<Permission> builder)
-        {          
-            
+        {
+            builder.HasKey(p => p.Id);
         }
     }
 }

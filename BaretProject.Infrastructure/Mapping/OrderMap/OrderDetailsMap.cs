@@ -9,7 +9,7 @@ namespace BaretProject.Infrastructure
         public void Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<OrderDetails> builder)
         {           
             builder.Property(p => p.Price).HasColumnType("Money").IsRequired();
-            
+            builder.HasKey(p => p.Id);
         }
     }
 }

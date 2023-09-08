@@ -13,7 +13,7 @@ namespace BaretProject.Infrastructure.Mapping.FoodMap
     {
         public void Configure(EntityTypeBuilder<Foods> builder)
         {
-           
+            builder.HasKey(p => p.Id);
         }
     }
 }

@@ -10,7 +10,7 @@ namespace BaretProject.Infrastructure
         public void Configure(EntityTypeBuilder<Roles> builder)
         {
             // Roles
-
+            builder.HasKey(p => p.Id);
             // SeedData
             builder.HasData(new Roles { Id = 1, Role = "Admin" });
             builder.HasData(new Roles { Id = 2, Role = "Operator" });

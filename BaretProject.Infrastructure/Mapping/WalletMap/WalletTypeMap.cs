@@ -8,6 +8,7 @@ namespace BaretProject.Infrastructure
     {
         public void Configure(EntityTypeBuilder<WalletType> builder)
         {
+            builder.HasKey(p => p.Id);
         }
     }
 }

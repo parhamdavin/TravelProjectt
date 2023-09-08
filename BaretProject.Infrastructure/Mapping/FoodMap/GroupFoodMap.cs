@@ -13,6 +13,7 @@ namespace BaretProject.Infrastructure.Mapping.FoodMap
     {
         public void Configure(EntityTypeBuilder<GroupFood> builder)
         {
+            builder.HasKey(p => p.Id);
             builder.HasMany(p=> p.ChildGroup_Food).WithOne(p=>p.ParentGroup_Food).HasForeignKey(p=>p.ParentId
             ).OnDelete(deleteBehavior: DeleteBehavior.NoAction);
             

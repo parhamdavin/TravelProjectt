@@ -51,7 +51,6 @@ namespace BaretProject.Infrastructure.Infrat
             services.AddScoped<IWalletRepository, WalletRepository>();
             services.AddScoped<IWalletTypeRepository, WalletTypeRepository>();
             services.AddScoped<IBusiness_TypeRepository, BusinessTypeRepository>();
-            services.AddLogging()
             services.AddDbContextPool<IApplicationContext, SqlServerContext>((options) =>
             {
                 options.UseSqlServer("Data Source=.;Initial Catalog=travel;Integrated Security=True;MultipleActiveResultSets=True;TrustServerCertificate=True");

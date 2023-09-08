@@ -12,7 +12,7 @@ namespace BaretProject.Infrastructure
             //? Order
             builder.Ignore(p => p.OrderStatus);
 
-           
+            builder.HasKey(p => p.Id);
 
             builder.HasMany(e => e.OrderDetails)
                 .WithOne(e => e.Orders)

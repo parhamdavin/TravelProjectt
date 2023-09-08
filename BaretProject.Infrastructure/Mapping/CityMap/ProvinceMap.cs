@@ -8,7 +8,7 @@ namespace BaretProject.Infrastructure
     {
         public void Configure(EntityTypeBuilder<Province> builder)
         {
-            
+            builder.HasKey(p => p.Id);
         }
     }
 }

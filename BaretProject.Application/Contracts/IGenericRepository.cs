@@ -1,6 +1,7 @@
 
 using BaretProject.Core.Domain;
 using BaretProject.Domain.Commons;
+using System.Data.Common;
 
 namespace BaretProject.Application.Contracts
 {
@@ -14,5 +15,6 @@ namespace BaretProject.Application.Contracts
         TEntity FindByIdAsNoTracking(params object[] ids);
         IQueryable<TEntity> Table { get; }
         IQueryable<TEntity> TableAsNoTracking { get; }
+       
     }
 }

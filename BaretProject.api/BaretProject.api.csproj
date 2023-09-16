@@ -20,10 +20,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Reference Include="BaretProject.Persistence">
       <HintPath>..\BaretProject.Persistence\obj\Debug\net6.0\BaretProject.Persistence.dll</HintPath>
     </Reference>

@@ -3803,11 +3803,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MyProject\\BaretProject\\textproject\\BaretProject.Persistence\\BaretProject.Persistence.csproj",
+      "projectUniqueName": "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Persistence\\BaretProject.Persistence.csproj",
       "projectName": "BaretProject.Persistence",
-      "projectPath": "D:\\MyProject\\BaretProject\\textproject\\BaretProject.Persistence\\BaretProject.Persistence.csproj",
+      "projectPath": "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Persistence\\BaretProject.Persistence.csproj",
       "packagesPath": "C:\\Users\\rm\\.nuget\\packages\\",
-      "outputPath": "D:\\MyProject\\BaretProject\\textproject\\BaretProject.Persistence\\obj\\",
+      "outputPath": "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Persistence\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rm\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3824,11 +3824,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\MyProject\\BaretProject\\textproject\\BaretProject.api\\BaretProject.api.csproj": {
-              "projectPath": "D:\\MyProject\\BaretProject\\textproject\\BaretProject.api\\BaretProject.api.csproj"
+            "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.api\\BaretProject.api.csproj": {
+              "projectPath": "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.api\\BaretProject.api.csproj"
             },
-            "D:\\MyProject\\BaretProject\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj": {
-              "projectPath": "D:\\MyProject\\BaretProject\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj"
+            "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj": {
+              "projectPath": "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj"
             }
           }
         }
@@ -3867,12 +3867,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.22, 6.0.22]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.22, 6.0.22]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.22, 6.0.22]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

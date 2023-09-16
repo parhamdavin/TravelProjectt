@@ -43,3 +43,18 @@ D:\MyProject\BaretProject\textproject\BaretProject.Application\obj\Debug\net6.0\
 D:\MyProject\BaretProject\textproject\BaretProject.Application\obj\Debug\net6.0\refint\BaretProject.Application.dll
 D:\MyProject\BaretProject\textproject\BaretProject.Application\obj\Debug\net6.0\BaretProject.Application.pdb
 D:\MyProject\BaretProject\textproject\BaretProject.Application\obj\Debug\net6.0\ref\BaretProject.Application.dll
+C:\Users\rm\Desktop\baret project\textproject\BaretProject.Application\bin\Debug\net6.0\BaretProject.Application.deps.json
+C:\Users\rm\Desktop\baret project\textproject\BaretProject.Application\bin\Debug\net6.0\BaretProject.Application.dll
+C:\Users\rm\Desktop\baret project\textproject\BaretProject.Application\bin\Debug\net6.0\BaretProject.Application.pdb
+C:\Users\rm\Desktop\baret project\textproject\BaretProject.Application\bin\Debug\net6.0\BaretProject.Domain.dll
+C:\Users\rm\Desktop\baret project\textproject\BaretProject.Application\bin\Debug\net6.0\BaretProject.Domain.pdb
+C:\Users\rm\Desktop\baret project\textproject\BaretProject.Application\obj\Debug\net6.0\BaretProject.Application.csproj.AssemblyReference.cache
+C:\Users\rm\Desktop\baret project\textproject\BaretProject.Application\obj\Debug\net6.0\BaretProject.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rm\Desktop\baret project\textproject\BaretProject.Application\obj\Debug\net6.0\BaretProject.Application.AssemblyInfoInputs.cache
+C:\Users\rm\Desktop\baret project\textproject\BaretProject.Application\obj\Debug\net6.0\BaretProject.Application.AssemblyInfo.cs
+C:\Users\rm\Desktop\baret project\textproject\BaretProject.Application\obj\Debug\net6.0\BaretProject.Application.csproj.CoreCompileInputs.cache
+C:\Users\rm\Desktop\baret project\textproject\BaretProject.Application\obj\Debug\net6.0\BaretProject.Application.csproj.CopyComplete
+C:\Users\rm\Desktop\baret project\textproject\BaretProject.Application\obj\Debug\net6.0\BaretProject.Application.dll
+C:\Users\rm\Desktop\baret project\textproject\BaretProject.Application\obj\Debug\net6.0\refint\BaretProject.Application.dll
+C:\Users\rm\Desktop\baret project\textproject\BaretProject.Application\obj\Debug\net6.0\BaretProject.Application.pdb
+C:\Users\rm\Desktop\baret project\textproject\BaretProject.Application\obj\Debug\net6.0\ref\BaretProject.Application.dll

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9Xhm96dctxdqlJ4fhIv3Te0NVzB7SlQBrpBQMbQXuwdtr3VxRr2k4QsQiMyzf2pPyLC/+3m6ukc2JghcWLfV5A==",
+  "dgSpecHash": "FI1eVeCjsK2D8+WJUDhNRvwh48dV7yODQFzi/8+kQRGuRtIfzAdsfmbDMPiZK3F5ntc2UB/naXD8YbgzAknGMw==",
   "success": true,
-  "projectFilePath": "D:\\MyProject\\BaretProject\\textproject\\BaretProject.Persistence\\BaretProject.Persistence.csproj",
+  "projectFilePath": "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Persistence\\BaretProject.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rm\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\rm\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
@@ -79,7 +79,10 @@
     "C:\\Users\\rm\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
     "C:\\Users\\rm\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\rm\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\rm\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
+    "C:\\Users\\rm\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512",
+    "C:\\Users\\rm\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.22\\microsoft.windowsdesktop.app.ref.6.0.22.nupkg.sha512",
+    "C:\\Users\\rm\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.22\\microsoft.netcore.app.ref.6.0.22.nupkg.sha512",
+    "C:\\Users\\rm\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.22\\microsoft.aspnetcore.app.ref.6.0.22.nupkg.sha512"
   ],
   "logs": []
 }

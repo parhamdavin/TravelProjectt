@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xr47uGaxA3TYZSVmdKKNJa0dT8rNkvRkEzHbbTFQUBywkiYfQ+JwnszJTpgx+j9Yp3aUTkOTpP8iY1NDrBz4Og==",
+  "dgSpecHash": "01lIn9CRNHUGmsDG78PW3c8/ocUCNmexKcFAqyKUY46prqMochDIUjCK6mazasjOgsfy5+mC9yrqeeh2tQ0FMg==",
   "success": true,
-  "projectFilePath": "D:\\MyProject\\BaretProject\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj",
+  "projectFilePath": "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rm\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\rm\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
@@ -10,7 +10,10 @@
     "C:\\Users\\rm\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\rm\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\rm\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
-    "C:\\Users\\rm\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
+    "C:\\Users\\rm\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512",
+    "C:\\Users\\rm\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.22\\microsoft.windowsdesktop.app.ref.6.0.22.nupkg.sha512",
+    "C:\\Users\\rm\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.22\\microsoft.netcore.app.ref.6.0.22.nupkg.sha512",
+    "C:\\Users\\rm\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.22\\microsoft.aspnetcore.app.ref.6.0.22.nupkg.sha512"
   ],
   "logs": []
 }

@@ -69,8 +69,11 @@ namespace BaretProject.Application.Services.UserServices
         public async Task<UserDTO> UpdateUser(UserDTO userDTO)
         {
             var User = await _repositoryUser.FindByIdAsync(userDTO.ID);
+           
+            User.Id=userDTO.ID;
             User.Mobile = userDTO.Mobile;
             User.Email = userDTO.Email;
+            User.ActiveCode= userDTO.ActiveCode;
             await _repositoryUser.UpdateAsync(User);
  
             return userDTO;

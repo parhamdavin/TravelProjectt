@@ -62,3 +62,29 @@ D:\MyProject\BaretProject\textproject\BaretProject.Persistence\bin\Debug\net6.0\
 D:\MyProject\BaretProject\textproject\BaretProject.Persistence\obj\Debug\net6.0\BaretProject.Persistence.csproj.CopyComplete
 D:\MyProject\BaretProject\textproject\BaretProject.Persistence\bin\Debug\net6.0\BaretProject.Persistence.deps.json
 D:\MyProject\BaretProject\textproject\BaretProject.Persistence\obj\Debug\net6.0\ref\BaretProject.Persistence.dll
+C:\Users\rm\Desktop\baret project\textproject\BaretProject.Persistence\bin\Debug\net6.0\BaretProject.api.deps.json
+C:\Users\rm\Desktop\baret project\textproject\BaretProject.Persistence\bin\Debug\net6.0\BaretProject.api.runtimeconfig.json
+C:\Users\rm\Desktop\baret project\textproject\BaretProject.Persistence\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\rm\Desktop\baret project\textproject\BaretProject.Persistence\bin\Debug\net6.0\appsettings.json
+C:\Users\rm\Desktop\baret project\textproject\BaretProject.Persistence\bin\Debug\net6.0\BaretProject.api.exe
+C:\Users\rm\Desktop\baret project\textproject\BaretProject.Persistence\bin\Debug\net6.0\BaretProject.api.dll
+C:\Users\rm\Desktop\baret project\textproject\BaretProject.Persistence\bin\Debug\net6.0\BaretProject.Application.dll
+C:\Users\rm\Desktop\baret project\textproject\BaretProject.Persistence\bin\Debug\net6.0\BaretProject.Domain.dll
+C:\Users\rm\Desktop\baret project\textproject\BaretProject.Persistence\bin\Debug\net6.0\BaretProject.Infrastructure.dll
+C:\Users\rm\Desktop\baret project\textproject\BaretProject.Persistence\bin\Debug\net6.0\BaretProject.Persistence.dll
+C:\Users\rm\Desktop\baret project\textproject\BaretProject.Persistence\bin\Debug\net6.0\BaretProject.api.pdb
+C:\Users\rm\Desktop\baret project\textproject\BaretProject.Persistence\bin\Debug\net6.0\BaretProject.Domain.pdb
+C:\Users\rm\Desktop\baret project\textproject\BaretProject.Persistence\bin\Debug\net6.0\BaretProject.Application.pdb
+C:\Users\rm\Desktop\baret project\textproject\BaretProject.Persistence\bin\Debug\net6.0\BaretProject.Infrastructure.pdb
+C:\Users\rm\Desktop\baret project\textproject\BaretProject.Persistence\bin\Debug\net6.0\BaretProject.Persistence.pdb
+C:\Users\rm\Desktop\baret project\textproject\BaretProject.Persistence\obj\Debug\net6.0\BaretProject.Persistence.csproj.AssemblyReference.cache
+C:\Users\rm\Desktop\baret project\textproject\BaretProject.Persistence\obj\Debug\net6.0\BaretProject.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rm\Desktop\baret project\textproject\BaretProject.Persistence\obj\Debug\net6.0\BaretProject.Persistence.AssemblyInfoInputs.cache
+C:\Users\rm\Desktop\baret project\textproject\BaretProject.Persistence\obj\Debug\net6.0\BaretProject.Persistence.AssemblyInfo.cs
+C:\Users\rm\Desktop\baret project\textproject\BaretProject.Persistence\obj\Debug\net6.0\BaretProject.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\rm\Desktop\baret project\textproject\BaretProject.Persistence\obj\Debug\net6.0\BaretProject.Persistence.csproj.CopyComplete
+C:\Users\rm\Desktop\baret project\textproject\BaretProject.Persistence\obj\Debug\net6.0\BaretProject.Persistence.dll
+C:\Users\rm\Desktop\baret project\textproject\BaretProject.Persistence\obj\Debug\net6.0\refint\BaretProject.Persistence.dll
+C:\Users\rm\Desktop\baret project\textproject\BaretProject.Persistence\obj\Debug\net6.0\BaretProject.Persistence.pdb
+C:\Users\rm\Desktop\baret project\textproject\BaretProject.Persistence\bin\Debug\net6.0\BaretProject.Persistence.deps.json
+C:\Users\rm\Desktop\baret project\textproject\BaretProject.Persistence\obj\Debug\net6.0\ref\BaretProject.Persistence.dll

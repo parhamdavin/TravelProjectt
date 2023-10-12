@@ -2,7 +2,7 @@
 using BaretProject.Application.DTOs.CityDTOs;
 using BaretProject.Application.DTOs.ProvinceDTOs;
 using BaretProject.Application.Extention;
-using BaretProject.Application.Services.City;
+using BaretProject.Application.Services.Citys;
 using BaretProject.Core.Domain;
 using BaretProject.Domain;
 using Microsoft.EntityFrameworkCore;
@@ -27,13 +27,14 @@ namespace BaretProject.Application.Services.CityService
         {
             var lis = await _cityRepository.TableAsNoTracking.Where(p=>p.IsRemoved==false).Select(p=> new CityItemDTO
             {
+                ID=p.Id,
                 Name = p.Name,
                 CreateON = p.InsertTime,
                 UpdateON = p.UpdateTime,
                 Localcreate = p.InsertTime.ToPersian(),
                 LocalUpdate = p.InsertTime.ToPersian(),
                 provinceName = p.Province.Name.ToString(),
-                provinceId = p.ProvinceId,
+              
 
             }).ToListAsync();
             return lis;
@@ -62,9 +63,10 @@ namespace BaretProject.Application.Services.CityService
 
         public async Task<CityDTO> Rigester(CityDTO CityDTO)
         {
-            var entity = CityDTO.ToEntity<BaretProject.Core.Domain.City>();
+            var entity = CityDTO.ToEntity<City>();
             await _cityRepository.AddAsync(entity);
             CityDTO.ID = entity.Id;
+          
             return CityDTO;
         }
 

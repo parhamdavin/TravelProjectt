@@ -9,6 +9,7 @@ namespace BaretProject.Infrastructure
     {
         public void Configure(EntityTypeBuilder<Roles> builder)
         {
+            //builder.Property(p => p.Id).UseIdentityColumn();
             // Roles
             builder.HasKey(p => p.Id);
             // SeedData

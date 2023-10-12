@@ -14,6 +14,7 @@ namespace BaretProject.Infrastructure.Mapping.FoodMap
         public void Configure(EntityTypeBuilder<FoodClip> builder)
         {
             builder.HasKey(p => p.Id);
+            //builder.Property(p => p.Id).UseIdentityColumn();
         }
     }
 }

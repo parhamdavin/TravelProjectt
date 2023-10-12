@@ -6,7 +6,7 @@ namespace BaretProject.Application.Services.Food.Menu
     {
         Task<IEnumerable<MenuItemDTO>> GetAllMenu();
         Task<MenuItemDTO> GetById(int Id);
-        Task<long> Add(CreateMenuDTO CreateMenuDTO);
+        //Task<long> Add(CreateMenuDTO CreateMenuDTO);
         Task Remove(int Id);
         bool IsExists(int Id);
     }

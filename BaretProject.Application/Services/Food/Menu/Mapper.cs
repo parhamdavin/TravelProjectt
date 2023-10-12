@@ -1,17 +1,18 @@
 ﻿using BaretProject.Application.DTOs.MenuDTOs;
+using BaretProject.Core.Domain;
 
 namespace BaretProject.Application.Services.Food.Menu
 {
     public static class Mapper
     {
-        public static BaretProject.Core.Domain.Menu ToEntity(CreateMenuDTO CreateMenuDTO)
-        {
-            return new Core.Domain.Menu()
-            {               
-                KitchenId = CreateMenuDTO.KitchenId,
-                MenuTitle = CreateMenuDTO.MenuTitle
-            };
-        }
+        //public static BaretProject.Core.Domain.Menu ToEntity(CreateMenuDTO CreateMenuDTO)
+        //{
+        //    return new Core.Domain.Menu()
+        //    {               
+        //        Kitchen.Id= CreateMenuDTO.kit
+        //        MenuTitle = CreateMenuDTO.MenuTitle
+        //    };
+        //}
 
         public static MenuItemDTO MenuItemDTO(BaretProject.Core.Domain.Menu menu)
         {

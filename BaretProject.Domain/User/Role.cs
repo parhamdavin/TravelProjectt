@@ -1,3 +1,5 @@
+using BaretProject.Domain.User;
+
 namespace BaretProject.Core.Domain
 {
     public class Roles : BaseEntity

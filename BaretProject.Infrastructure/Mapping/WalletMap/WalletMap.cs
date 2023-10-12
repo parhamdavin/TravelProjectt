@@ -10,6 +10,7 @@ namespace BaretProject.Infrastructure
         public void Configure(EntityTypeBuilder<Wallet> builder)
         {
             builder.HasKey(p => p.Id);
+            //builder.Property(p => p.Id).UseIdentityColumn();
         }
     }
 }

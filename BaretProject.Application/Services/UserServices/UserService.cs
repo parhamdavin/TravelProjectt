@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace BaretProject.Application.Services.UserServices
 {
@@ -45,7 +46,7 @@ namespace BaretProject.Application.Services.UserServices
 
         public async Task<UserDTO> RegisterUser(UserDTO userDTO)
         {
-            var user = userDTO.ToEntity<User>();
+            var user = userDTO.ToEntity<Userr>();
             await _repositoryUser.AddAsync(user);
             userDTO.ID = user.Id;
 
@@ -78,7 +79,7 @@ namespace BaretProject.Application.Services.UserServices
  
             return userDTO;
         }
-
+        
         public bool UserIsExist(int userId)
         {
             var prod = _repositoryUser.FindByIdAsNoTracking(userId);

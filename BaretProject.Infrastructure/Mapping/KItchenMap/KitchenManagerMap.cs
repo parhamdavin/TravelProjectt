@@ -14,6 +14,7 @@ namespace BaretProject.Infrastructure.Mapping.KItchenMap
         public void Configure(EntityTypeBuilder<KitchenManager> builder)
         {
             builder.HasKey(x => x.Id);
+            //builder.Property(p => p.Id).UseIdentityColumn();
             builder.HasOne(u => u.User).WithOne(k => k.KitchenManager).HasForeignKey<KitchenManager>(k => k.Id);
         }
     }

@@ -6,15 +6,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BaretProject.Application.Services.City
+namespace BaretProject.Application.Services.Citys
 {
     public interface ICityService
     {
         Task<IEnumerable<CityItemDTO>> GetAll();
         Task<CityItemDTO> GetById(int id);
         bool IExist(int id);
-        Task<CityDTO> Rigester(CityDTO provinceDTO);
+        Task<CityDTO> Rigester(CityDTO cityDTO);
         Task Remove(int id);
-        Task<CityDTO> Update(CityDTO provinceDTO);
+        Task<CityDTO> Update(CityDTO cityDTO);
     }
 }

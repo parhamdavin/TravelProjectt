@@ -44,7 +44,7 @@ namespace BaretProject.Infrastructure.Repository
                 throw new ArgumentNullException(nameof(entity));
 
             await _context.Set<TEntity>().AddAsync(entity);
-            _context.SaveChangesAsync();
+            await _context.SaveChangesAsync();
         }
 
         public async Task UpdateAsync(TEntity entity)

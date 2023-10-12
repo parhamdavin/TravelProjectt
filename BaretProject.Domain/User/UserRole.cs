@@ -1,13 +1,17 @@
-namespace BaretProject.Core.Domain
-{
-    public class UserRole:BaseRelation
-    {       
-        public int RoleId { get; set; }
-        public int UserId { get; set; }
+﻿using BaretProject.Core.Domain;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-        #region  Navigation Property
-        public virtual Roles Role { get; set; }     
-        public virtual User User { get; set; }
-        #endregion
+namespace BaretProject.Domain.User
+{
+    public class UserRole
+    {
+        public int UserId { get; set; }
+        public int RoleId { get; set; }
+        public virtual Userr User { get; set; }
+        public virtual Roles Role { get; set; }
     }
 }

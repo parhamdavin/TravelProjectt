@@ -14,13 +14,13 @@ namespace BaretProject.Application.Services.Food.Menu
         }
 
 
-        public async Task<long> Add(CreateMenuDTO CreateMenuDTO)
-        {
-            var menu = Mapper.ToEntity(CreateMenuDTO);
-            await _menuRepository.AddAsync(menu);
+        //public async Task<long> Add(CreateMenuDTO CreateMenuDTO)
+        //{
+        //    var menu = Mapper.ToEntity(CreateMenuDTO);
+        //    await _menuRepository.AddAsync(menu);
 
-            return menu.Id;
-        }
+        //    return menu.Id;
+        //}
 
 
         public async Task<IEnumerable<MenuItemDTO>> GetAllMenu()

@@ -1,6 +1,8 @@
+using BaretProject.Domain.User;
+
 namespace BaretProject.Core.Domain
 {
-    public class User:BaseEntity
+    public class Userr:BaseEntity
     {
 
         public string Mobile { get; set; }
@@ -9,9 +11,10 @@ namespace BaretProject.Core.Domain
         public bool IsActive { get; set; }
 
         #region  Navigation Property
-        public virtual Customer Customer { get; set; }
+        public virtual Customers Customer { get; set; }
         public virtual KitchenManager KitchenManager { get; set; }
         public virtual ICollection<UserRole> UserRole { get; set; }
+        
         #endregion
 
     }

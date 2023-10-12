@@ -9,11 +9,12 @@ using System.Threading.Tasks;
 
 namespace BaretProject.Infrastructure.Mapping.FoodMap
 {
-    public class FoodMap : IEntityTypeConfiguration<Foods>
+    public class FoodMap : IEntityTypeConfiguration<Food>
     {
-        public void Configure(EntityTypeBuilder<Foods> builder)
+        public void Configure(EntityTypeBuilder<Food> builder)
         {
             builder.HasKey(p => p.Id);
+            //builder.Property(p => p.Id).UseIdentityColumn();
         }
     }
 }

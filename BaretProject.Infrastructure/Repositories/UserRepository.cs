@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace BaretProject.Infrastructure.Repositories
 {
-    public class UserRepository : GenericRepository<User>, IUserRepository
+    public class UserRepository : GenericRepository<Userr>, IUserRepository
     {
         #region Field
         private readonly IApplicationContext _context;
@@ -22,30 +22,30 @@ namespace BaretProject.Infrastructure.Repositories
         #endregion
 
         #region
-        public virtual IQueryable<User> Table => Entities;
-        public virtual IQueryable<User> TableAsNoTracking => Entities.AsNoTracking();
+        public virtual IQueryable<Userr> Table => Entities;
+        public virtual IQueryable<Userr> TableAsNoTracking => Entities.AsNoTracking();
 
-        public async Task AddAsync(User entity)
+        public async Task AddAsync(Userr entity)
         {
             if (entity == null)
                 throw new ArgumentNullException(nameof(entity));
 
-            await _context.Set<User>().AddAsync(entity);
+            await _context.Set<Userr>().AddAsync(entity);
             await _context.SaveChangesAsync();
         }
 
-        public async Task UpdateAsync(User entity)
+        public async Task UpdateAsync(Userr entity)
         {
             if (entity == null)
             {
                 throw new ArgumentNullException(nameof(entity));
             }
 
-            _context.Set<User>().Update(entity);
+            _context.Set<Userr>().Update(entity);
             await _context.SaveChangesAsync();
         }
 
-        public async Task DeleteAsync(User entity)
+        public async Task DeleteAsync(Userr entity)
         {
             if (entity == null)
                 throw new ArgumentNullException(nameof(entity));
@@ -53,21 +53,21 @@ namespace BaretProject.Infrastructure.Repositories
             await _context.SaveChangesAsync();
         }
 
-        public async Task<User> FindByIdAsync(params object[] ids)
+        public async Task<Userr> FindByIdAsync(params object[] ids)
         {
-            return await _context.Set<User>().FindAsync(ids);
+            return await _context.Set<Userr>().FindAsync(ids);
         }
 
-        public async Task GetAllAsync(User entity)
+        public async Task GetAllAsync(Userr entity)
         {
-            var list = _context.Set<User>();
+            var list = _context.Set<Userr>();
             await _context.SaveChangesAsync();
 
         }
 
-        public User FindByIdAsNoTracking(params object[] ids)
+        public Userr FindByIdAsNoTracking(params object[] ids)
         {
-            var entity = _context.Set<User>().Find(ids);
+            var entity = _context.Set<Userr>().Find(ids);
             if (entity != null)
             {
                 //NoTracking

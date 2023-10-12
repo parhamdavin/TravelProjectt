@@ -13,7 +13,7 @@ using BaretProject.Infrastructure.Repository;
 
 namespace BaretProject.Infrastructure.Repositories
 {
-    public class FoodRepository : GenericRepository<Foods>, IFoodRepository
+    public class FoodRepository : GenericRepository<Food>, IFoodRepository
     {
         #region Field
         private readonly IApplicationContext _context;
@@ -25,19 +25,19 @@ namespace BaretProject.Infrastructure.Repositories
 
 
         #region 
-        public virtual IQueryable<Foods> Table => Entities;
-        public virtual IQueryable<Foods> TableAsNoTracking => Entities.AsNoTracking();
+        public virtual IQueryable<Food> Table => Entities;
+        public virtual IQueryable<Food> TableAsNoTracking => Entities.AsNoTracking();
 
-        public async  Task AddAsync(Foods entity)
+        public async  Task AddAsync(Food entity)
         {
             if (entity == null)
                 throw new ArgumentNullException(nameof(entity));
 
-            await _context.Set<Foods>().AddAsync(entity);
+            await _context.Set<Food>().AddAsync(entity);
             await _context.SaveChangesAsync();
         }
 
-        public async Task DeleteAsync(Foods entity)
+        public async Task DeleteAsync(Food entity)
         {
             if (entity == null)
                 throw new ArgumentNullException(nameof(entity));
@@ -45,9 +45,9 @@ namespace BaretProject.Infrastructure.Repositories
             await _context.SaveChangesAsync();
         }
 
-        public Foods FindByIdAsNoTracking(params object[] ids)
+        public Food FindByIdAsNoTracking(params object[] ids)
         {
-            var entity = _context.Set<Foods>().Find(ids);
+            var entity = _context.Set<Food>().Find(ids);
             if (entity != null)
             {
                 //NoTracking
@@ -57,25 +57,25 @@ namespace BaretProject.Infrastructure.Repositories
             return entity;
         }
 
-        public async Task<Foods> FindByIdAsync(params object[] ids)
+        public async Task<Food> FindByIdAsync(params object[] ids)
         {
-            return await _context.Set<Foods>().FindAsync(ids);
+            return await _context.Set<Food>().FindAsync(ids);
         }
 
-        public async Task GetAllAsync(Foods entity)
+        public async Task GetAllAsync(Food entity)
         {
-            var list = _context.Set<Foods>();
+            var list = _context.Set<Food>();
             await _context.SaveChangesAsync();
         }
 
-        public async Task UpdateAsync(Foods entity)
+        public async Task UpdateAsync(Food entity)
         {
             if (entity == null)
             {
                 throw new ArgumentNullException(nameof(entity));
             }
 
-            _context.Set<Foods>().Update(entity);
+            _context.Set<Food>().Update(entity);
             await _context.SaveChangesAsync();
         }
         #endregion

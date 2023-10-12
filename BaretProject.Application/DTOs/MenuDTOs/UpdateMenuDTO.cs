@@ -9,6 +9,6 @@ namespace BaretProject.Application.DTOs.MenuDTOs
    public class UpdateMenuDTO:BaseDTO,IMenuDTO
     {
         public string MenuTitle { get; set; }
-        public int KitchenId { get; set; }
+       
     }
 }

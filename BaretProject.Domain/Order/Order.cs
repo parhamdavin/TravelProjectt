@@ -12,7 +12,7 @@ namespace BaretProject.Core.Domain
         public bool IsFinally { get; set; }
 
         #region  Navigation Property
-        public virtual Customer Customer { get; set; }
+        public virtual Customers Customer { get; set; }
         public virtual ICollection<OrderDetails> OrderDetails { get; set; }
         #endregion
 

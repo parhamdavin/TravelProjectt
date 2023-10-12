@@ -15,7 +15,7 @@ namespace BaretProject.Infrastructure.Mapping.KItchenMap
         {
             builder.HasKey(x => x.Id);
             builder.HasOne(k => k.Kitchen).WithOne(k => k.KitchenFinancialInfo).HasForeignKey<Kitchen>(k => k.Id);
-
+            //builder.Property(p => p.Id).UseIdentityColumn();
         }
     }
 }

@@ -9,6 +9,8 @@ namespace BaretProject.Infrastructure
         public void Configure(EntityTypeBuilder<WalletType> builder)
         {
             builder.HasKey(p => p.Id);
+            builder.HasMany(w => w.Wallets).WithOne(c => c.WalletType).HasForeignKey(w => w.Id).IsRequired();
+            //builder.Property(p => p.Id).UseIdentityColumn();
         }
     }
 }

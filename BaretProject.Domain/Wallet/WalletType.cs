@@ -8,7 +8,7 @@ namespace BaretProject.Core.Domain
         public string Title { get; set; }
 
         #region  Navigation Property
-        public virtual ICollection<Wallet> Wallet { get; set; }
+        public virtual ICollection<Wallet> Wallets { get; set; }
         #endregion
     }
 }

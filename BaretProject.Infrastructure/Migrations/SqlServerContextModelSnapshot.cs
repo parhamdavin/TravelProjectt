@@ -82,7 +82,7 @@ namespace BaretProject.Infrastructure.Migrations
                     b.ToTable("City");
                 });
 
-            modelBuilder.Entity("BaretProject.Core.Domain.Customer", b =>
+            modelBuilder.Entity("BaretProject.Core.Domain.Customers", b =>
                 {
                     b.Property<int>("Id")
                         .HasColumnType("int");
@@ -116,51 +116,10 @@ namespace BaretProject.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Customer");
+                    b.ToTable("Customers");
                 });
 
-            modelBuilder.Entity("BaretProject.Core.Domain.FoodClip", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("ClipFileName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ClipTitle")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("FoodId")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("InsertTime")
-                        .HasColumnType("datetime2");
-
-                    b.Property<bool>("IsRemoved")
-                        .HasColumnType("bit");
-
-                    b.Property<DateTime?>("RemoveTime")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime>("TimeDuration")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime>("UpdateTime")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("FoodId");
-
-                    b.ToTable("FoodClip");
-                });
-
-            modelBuilder.Entity("BaretProject.Core.Domain.Foods", b =>
+            modelBuilder.Entity("BaretProject.Core.Domain.Food", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -202,7 +161,48 @@ namespace BaretProject.Infrastructure.Migrations
 
                     b.HasIndex("MenuId");
 
-                    b.ToTable("Foods");
+                    b.ToTable("Food");
+                });
+
+            modelBuilder.Entity("BaretProject.Core.Domain.FoodClip", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("ClipFileName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ClipTitle")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("FoodId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("InsertTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsRemoved")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime?>("RemoveTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("TimeDuration")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("UpdateTime")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("FoodId");
+
+                    b.ToTable("FoodClip");
                 });
 
             modelBuilder.Entity("BaretProject.Core.Domain.GroupFood", b =>
@@ -431,12 +431,6 @@ namespace BaretProject.Infrastructure.Migrations
             modelBuilder.Entity("BaretProject.Core.Domain.Order", b =>
                 {
                     b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("CustomerId")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("InsertTime")
@@ -447,6 +441,9 @@ namespace BaretProject.Infrastructure.Migrations
 
                     b.Property<bool>("IsRemoved")
                         .HasColumnType("bit");
+
+                    b.Property<int>("OrderStatus")
+                        .HasColumnType("int");
 
                     b.Property<int>("OrderStatusId")
                         .HasColumnType("int");
@@ -459,15 +456,16 @@ namespace BaretProject.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("CustomerId");
-
                     b.ToTable("Order");
                 });
 
             modelBuilder.Entity("BaretProject.Core.Domain.OrderDetails", b =>
                 {
                     b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("Count")
                         .HasColumnType("int");
@@ -481,6 +479,9 @@ namespace BaretProject.Infrastructure.Migrations
                     b.Property<bool>("IsRemoved")
                         .HasColumnType("bit");
 
+                    b.Property<int>("OrdersId")
+                        .HasColumnType("int");
+
                     b.Property<decimal>("Price")
                         .HasColumnType("Money");
 
@@ -493,6 +494,8 @@ namespace BaretProject.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("FoodId");
+
+                    b.HasIndex("OrdersId");
 
                     b.ToTable("OrderDetails");
                 });
@@ -605,7 +608,7 @@ namespace BaretProject.Infrastructure.Migrations
                         new
                         {
                             Id = 1,
-                            InsertTime = new DateTime(2023, 9, 8, 6, 10, 31, 635, DateTimeKind.Local).AddTicks(4422),
+                            InsertTime = new DateTime(2023, 10, 10, 0, 31, 53, 216, DateTimeKind.Local).AddTicks(326),
                             IsRemoved = false,
                             Role = "Admin",
                             UpdateTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -613,7 +616,7 @@ namespace BaretProject.Infrastructure.Migrations
                         new
                         {
                             Id = 2,
-                            InsertTime = new DateTime(2023, 9, 8, 6, 10, 31, 635, DateTimeKind.Local).AddTicks(4473),
+                            InsertTime = new DateTime(2023, 10, 10, 0, 31, 53, 216, DateTimeKind.Local).AddTicks(369),
                             IsRemoved = false,
                             Role = "Operator",
                             UpdateTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -621,14 +624,14 @@ namespace BaretProject.Infrastructure.Migrations
                         new
                         {
                             Id = 3,
-                            InsertTime = new DateTime(2023, 9, 8, 6, 10, 31, 635, DateTimeKind.Local).AddTicks(4477),
+                            InsertTime = new DateTime(2023, 10, 10, 0, 31, 53, 216, DateTimeKind.Local).AddTicks(373),
                             IsRemoved = false,
                             Role = "Customer",
                             UpdateTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         });
                 });
 
-            modelBuilder.Entity("BaretProject.Core.Domain.User", b =>
+            modelBuilder.Entity("BaretProject.Core.Domain.Userr", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -668,39 +671,15 @@ namespace BaretProject.Infrastructure.Migrations
                     b.HasIndex("Email")
                         .IsUnique();
 
-                    b.ToTable("User");
-                });
-
-            modelBuilder.Entity("BaretProject.Core.Domain.UserRole", b =>
-                {
-                    b.Property<int>("RoleId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
-
-                    b.Property<bool>("IsRemoved")
-                        .HasColumnType("bit");
-
-                    b.HasKey("RoleId", "UserId");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("UserRole");
+                    b.ToTable("Userr");
                 });
 
             modelBuilder.Entity("BaretProject.Core.Domain.Wallet", b =>
                 {
                     b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("Amount")
-                        .HasColumnType("int");
-
-                    b.Property<int>("CustomerId")
                         .HasColumnType("int");
 
                     b.Property<string>("Description")
@@ -722,14 +701,7 @@ namespace BaretProject.Infrastructure.Migrations
                     b.Property<DateTime>("UpdateTime")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("WalletTypeId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("CustomerId");
-
-                    b.HasIndex("WalletTypeId");
 
                     b.ToTable("Wallet");
                 });
@@ -763,9 +735,24 @@ namespace BaretProject.Infrastructure.Migrations
                     b.ToTable("WalletType");
                 });
 
+            modelBuilder.Entity("BaretProject.Domain.User.UserRole", b =>
+                {
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("RoleId")
+                        .HasColumnType("int");
+
+                    b.HasKey("UserId", "RoleId");
+
+                    b.HasIndex("RoleId");
+
+                    b.ToTable("UserRole");
+                });
+
             modelBuilder.Entity("BaretProject.Core.Domain.City", b =>
                 {
-                    b.HasOne("BaretProject.Core.Domain.Customer", "Customer")
+                    b.HasOne("BaretProject.Core.Domain.Customers", "Customer")
                         .WithOne("City")
                         .HasForeignKey("BaretProject.Core.Domain.City", "Id")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -790,29 +777,18 @@ namespace BaretProject.Infrastructure.Migrations
                     b.Navigation("Province");
                 });
 
-            modelBuilder.Entity("BaretProject.Core.Domain.Customer", b =>
+            modelBuilder.Entity("BaretProject.Core.Domain.Customers", b =>
                 {
-                    b.HasOne("BaretProject.Core.Domain.User", "User")
+                    b.HasOne("BaretProject.Core.Domain.Userr", "User")
                         .WithOne("Customer")
-                        .HasForeignKey("BaretProject.Core.Domain.Customer", "Id")
+                        .HasForeignKey("BaretProject.Core.Domain.Customers", "Id")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("BaretProject.Core.Domain.FoodClip", b =>
-                {
-                    b.HasOne("BaretProject.Core.Domain.Foods", "Food")
-                        .WithMany("FoodClips")
-                        .HasForeignKey("FoodId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Food");
-                });
-
-            modelBuilder.Entity("BaretProject.Core.Domain.Foods", b =>
+            modelBuilder.Entity("BaretProject.Core.Domain.Food", b =>
                 {
                     b.HasOne("BaretProject.Core.Domain.Menu", "Menu")
                         .WithMany("Foods")
@@ -821,6 +797,17 @@ namespace BaretProject.Infrastructure.Migrations
                         .IsRequired();
 
                     b.Navigation("Menu");
+                });
+
+            modelBuilder.Entity("BaretProject.Core.Domain.FoodClip", b =>
+                {
+                    b.HasOne("BaretProject.Core.Domain.Food", "Food")
+                        .WithMany("FoodClips")
+                        .HasForeignKey("FoodId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Food");
                 });
 
             modelBuilder.Entity("BaretProject.Core.Domain.GroupFood", b =>
@@ -877,7 +864,7 @@ namespace BaretProject.Infrastructure.Migrations
 
             modelBuilder.Entity("BaretProject.Core.Domain.KitchenManager", b =>
                 {
-                    b.HasOne("BaretProject.Core.Domain.User", "User")
+                    b.HasOne("BaretProject.Core.Domain.Userr", "User")
                         .WithOne("KitchenManager")
                         .HasForeignKey("BaretProject.Core.Domain.KitchenManager", "Id")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -918,9 +905,9 @@ namespace BaretProject.Infrastructure.Migrations
 
             modelBuilder.Entity("BaretProject.Core.Domain.Order", b =>
                 {
-                    b.HasOne("BaretProject.Core.Domain.Customer", "Customer")
+                    b.HasOne("BaretProject.Core.Domain.Customers", "Customer")
                         .WithMany("Orders")
-                        .HasForeignKey("CustomerId")
+                        .HasForeignKey("Id")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -929,7 +916,7 @@ namespace BaretProject.Infrastructure.Migrations
 
             modelBuilder.Entity("BaretProject.Core.Domain.OrderDetails", b =>
                 {
-                    b.HasOne("BaretProject.Core.Domain.Foods", "Food")
+                    b.HasOne("BaretProject.Core.Domain.Food", "Food")
                         .WithMany("OrderDetails")
                         .HasForeignKey("FoodId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -937,8 +924,8 @@ namespace BaretProject.Infrastructure.Migrations
 
                     b.HasOne("BaretProject.Core.Domain.Order", "Orders")
                         .WithMany("OrderDetails")
-                        .HasForeignKey("Id")
-                        .OnDelete(DeleteBehavior.NoAction)
+                        .HasForeignKey("OrdersId")
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Food");
@@ -965,7 +952,26 @@ namespace BaretProject.Infrastructure.Migrations
                     b.Navigation("Role");
                 });
 
-            modelBuilder.Entity("BaretProject.Core.Domain.UserRole", b =>
+            modelBuilder.Entity("BaretProject.Core.Domain.Wallet", b =>
+                {
+                    b.HasOne("BaretProject.Core.Domain.Customers", "Customer")
+                        .WithMany("Wallets")
+                        .HasForeignKey("Id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("BaretProject.Core.Domain.WalletType", "WalletType")
+                        .WithMany("Wallets")
+                        .HasForeignKey("Id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Customer");
+
+                    b.Navigation("WalletType");
+                });
+
+            modelBuilder.Entity("BaretProject.Domain.User.UserRole", b =>
                 {
                     b.HasOne("BaretProject.Core.Domain.Roles", "Role")
                         .WithMany("UserRole")
@@ -973,7 +979,7 @@ namespace BaretProject.Infrastructure.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("BaretProject.Core.Domain.User", "User")
+                    b.HasOne("BaretProject.Core.Domain.Userr", "User")
                         .WithMany("UserRole")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -984,31 +990,12 @@ namespace BaretProject.Infrastructure.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("BaretProject.Core.Domain.Wallet", b =>
-                {
-                    b.HasOne("BaretProject.Core.Domain.Customer", "Customer")
-                        .WithMany("Wallets")
-                        .HasForeignKey("CustomerId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("BaretProject.Core.Domain.WalletType", "WalletType")
-                        .WithMany("Wallet")
-                        .HasForeignKey("WalletTypeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Customer");
-
-                    b.Navigation("WalletType");
-                });
-
             modelBuilder.Entity("BaretProject.Core.Domain.BusinessType", b =>
                 {
                     b.Navigation("Kitchen");
                 });
 
-            modelBuilder.Entity("BaretProject.Core.Domain.Customer", b =>
+            modelBuilder.Entity("BaretProject.Core.Domain.Customers", b =>
                 {
                     b.Navigation("City")
                         .IsRequired();
@@ -1018,7 +1005,7 @@ namespace BaretProject.Infrastructure.Migrations
                     b.Navigation("Wallets");
                 });
 
-            modelBuilder.Entity("BaretProject.Core.Domain.Foods", b =>
+            modelBuilder.Entity("BaretProject.Core.Domain.Food", b =>
                 {
                     b.Navigation("FoodClips");
 
@@ -1079,7 +1066,7 @@ namespace BaretProject.Infrastructure.Migrations
                     b.Navigation("UserRole");
                 });
 
-            modelBuilder.Entity("BaretProject.Core.Domain.User", b =>
+            modelBuilder.Entity("BaretProject.Core.Domain.Userr", b =>
                 {
                     b.Navigation("Customer")
                         .IsRequired();
@@ -1092,7 +1079,7 @@ namespace BaretProject.Infrastructure.Migrations
 
             modelBuilder.Entity("BaretProject.Core.Domain.WalletType", b =>
                 {
-                    b.Navigation("Wallet");
+                    b.Navigation("Wallets");
                 });
 #pragma warning restore 612, 618
         }

@@ -1,10 +1,9 @@
 ﻿
 namespace BaretProject.Application.DTOs.Customer
 {
-    public class CustomerDto : BaseItemDTO
+    public class CustomerDTO : BaseDTO
     {
-        public int UserId { get; set; }
-        public int CityId { get; set; }
+        
         public string Name { get; set; }
         public string Family { get; set; }
         public string Fullname

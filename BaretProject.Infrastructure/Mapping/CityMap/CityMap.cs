@@ -8,9 +8,11 @@ namespace BaretProject.Infrastructure
     {
         public void Configure(EntityTypeBuilder<City> builder)
         {
+
             builder.HasOne(c => c.Customer)
-               .WithOne(c => c.City).HasForeignKey<Customer>(c => c.Id);
+               .WithOne(c => c.City).HasForeignKey<Customers>(c => c.Id);
             builder.HasKey(p => p.Id);
+            //builder.Property(p => p.Id).UseIdentityColumn();
             builder.HasOne(c => c.Kitchen)
                .WithOne(c => c.City).HasForeignKey<Kitchen>(c => c.Id);
         }

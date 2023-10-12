@@ -10,6 +10,7 @@ namespace BaretProject.Infrastructure
         {           
             builder.Property(p => p.Price).HasColumnType("Money").IsRequired();
             builder.HasKey(p => p.Id);
+            //builder.Property(p => p.Id).UseIdentityColumn();
         }
     }
 }

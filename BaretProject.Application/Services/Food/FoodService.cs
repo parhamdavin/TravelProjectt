@@ -60,7 +60,7 @@ namespace BaretProject.Application.Services.Food
 
         public async Task<FoodDTO> Rigester(FoodDTO foodDTO)
         {
-            var food = foodDTO.ToEntity<Foods>();
+            var food = foodDTO.ToEntity<Core.Domain.Food>();
             await _repository.AddAsync(food);
             foodDTO.ID = food.Id;
             return foodDTO;
@@ -72,7 +72,7 @@ namespace BaretProject.Application.Services.Food
             food.Description = foodDTO.Description;
             food.Name = foodDTO.Name;
             food.ImageFileName = foodDTO.ImageFileName;
-
+            food.Id = foodDTO.ID;
 
             await _repository.UpdateAsync(food);
             return foodDTO;

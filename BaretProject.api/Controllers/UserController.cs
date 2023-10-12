@@ -6,7 +6,7 @@ namespace BaretProject.api.Controllers
 {
     [ApiController]
     [Route("User")]
-    public class UserController : Controller
+    public class UserController : ControllerBase
     {
         #region filed
         private readonly IUserService _userService;
@@ -62,5 +62,6 @@ namespace BaretProject.api.Controllers
             var user = await _userService.UpdateUser(userDTO);
             return Ok(user);
         }
+       
     }
 }

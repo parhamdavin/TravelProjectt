@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BaretProject.Application.Contracts.Repositories
 {
-    public interface IUserRepository:IGenericRepository<User>
+    public interface IUserRepository:IGenericRepository<Userr>
     {
     }
 }

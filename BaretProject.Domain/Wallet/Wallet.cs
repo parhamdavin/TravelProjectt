@@ -9,7 +9,7 @@ namespace BaretProject.Core.Domain
 
         #region  Navigation Property
         public virtual WalletType WalletType { get; set; }   
-        public virtual Customer Customer { get; set; }
+        public virtual Customers Customer { get; set; }
         #endregion
 
     }

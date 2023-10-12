@@ -1,8 +1,9 @@
+using BaretProject.Domain.User;
 using System.ComponentModel.DataAnnotations;
 
 namespace BaretProject.Core.Domain
 {
-    public class Customer:BaseEntity
+    public class Customers:BaseEntity
     {
 
         public string Name { get; set; }
@@ -15,11 +16,12 @@ namespace BaretProject.Core.Domain
         }
         public int WalletBalance { get; set; }
         public string Address { get; set; }
-        public City City { get; set; }
-        public User User { get; set; }
+        public virtual City City { get; set; }
+        public virtual Userr User { get; set; }
         #region  Navigation Property
         public virtual ICollection<Wallet> Wallets{get;set;}
         public virtual ICollection<Order> Orders { get; set; }
+      
         #endregion
 
     }

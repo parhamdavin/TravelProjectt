@@ -9,7 +9,7 @@ namespace BaretProject.Core.Domain
 
         #region  Navigation Property
         public virtual Order Orders { get; set; }      
-        public virtual Foods Food { get; set; }
+        public virtual Food Food { get; set; }
         #endregion
     }
 }

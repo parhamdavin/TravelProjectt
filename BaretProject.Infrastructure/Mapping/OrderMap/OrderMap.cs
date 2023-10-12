@@ -10,14 +10,14 @@ namespace BaretProject.Infrastructure
         public void Configure(EntityTypeBuilder<Order> builder)
         {
             //? Order
-            builder.Ignore(p => p.OrderStatus);
+            //builder.Ignore(p => p.OrderStatus);
 
-            builder.HasKey(p => p.Id);
-
-            builder.HasMany(e => e.OrderDetails)
-                .WithOne(e => e.Orders)
-                .HasForeignKey(e => e.Id)
-               .OnDelete(deleteBehavior: DeleteBehavior.NoAction);
+            //builder.HasKey(p => p.Id);
+            //builder.Property(p => p.Id).UseIdentityColumn();
+            //builder.HasMany(e => e.OrderDetails)
+            //    .WithOne(e => e.Orders)
+            //    .HasForeignKey(e => e.Id)
+            //   .OnDelete(deleteBehavior: DeleteBehavior.NoAction);
         }
     }
 }

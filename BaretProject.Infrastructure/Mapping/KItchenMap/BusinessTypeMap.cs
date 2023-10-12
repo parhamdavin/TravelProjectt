@@ -13,6 +13,7 @@ namespace BaretProject.Infrastructure.Mapping.KItchenMap
     {
         public void Configure(EntityTypeBuilder<BusinessType> builder)
         {
+            //builder.Property(p => p.Id).UseIdentityColumn();
             builder.HasKey(p => p.Id);
         }
     }

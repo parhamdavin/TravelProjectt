@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace BaretProject.Infrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class nf : Migration
+    public partial class init : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -105,7 +105,7 @@ namespace BaretProject.Infrastructure.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "User",
+                name: "Userr",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -121,7 +121,7 @@ namespace BaretProject.Infrastructure.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_User", x => x.Id);
+                    table.PrimaryKey("PK_Userr", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -193,7 +193,7 @@ namespace BaretProject.Infrastructure.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Customer",
+                name: "Customers",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false),
@@ -208,11 +208,11 @@ namespace BaretProject.Infrastructure.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Customer", x => x.Id);
+                    table.PrimaryKey("PK_Customers", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Customer_User_Id",
+                        name: "FK_Customers_Userr_Id",
                         column: x => x.Id,
-                        principalTable: "User",
+                        principalTable: "Userr",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -234,9 +234,9 @@ namespace BaretProject.Infrastructure.Migrations
                 {
                     table.PrimaryKey("PK_KitchenManager", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_KitchenManager_User_Id",
+                        name: "FK_KitchenManager_Userr_Id",
                         column: x => x.Id,
-                        principalTable: "User",
+                        principalTable: "Userr",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -245,13 +245,12 @@ namespace BaretProject.Infrastructure.Migrations
                 name: "UserRole",
                 columns: table => new
                 {
-                    RoleId = table.Column<int>(type: "int", nullable: false),
                     UserId = table.Column<int>(type: "int", nullable: false),
-                    IsRemoved = table.Column<bool>(type: "bit", nullable: false)
+                    RoleId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_UserRole", x => new { x.RoleId, x.UserId });
+                    table.PrimaryKey("PK_UserRole", x => new { x.UserId, x.RoleId });
                     table.ForeignKey(
                         name: "FK_UserRole_Roles_RoleId",
                         column: x => x.RoleId,
@@ -259,9 +258,9 @@ namespace BaretProject.Infrastructure.Migrations
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_UserRole_User_UserId",
+                        name: "FK_UserRole_Userr_UserId",
                         column: x => x.UserId,
-                        principalTable: "User",
+                        principalTable: "Userr",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -358,9 +357,9 @@ namespace BaretProject.Infrastructure.Migrations
                 {
                     table.PrimaryKey("PK_City", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_City_Customer_Id",
+                        name: "FK_City_Customers_Id",
                         column: x => x.Id,
-                        principalTable: "Customer",
+                        principalTable: "Customers",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
@@ -381,11 +380,10 @@ namespace BaretProject.Infrastructure.Migrations
                 name: "Order",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Id = table.Column<int>(type: "int", nullable: false),
                     OrderStatusId = table.Column<int>(type: "int", nullable: false),
+                    OrderStatus = table.Column<int>(type: "int", nullable: false),
                     IsFinally = table.Column<bool>(type: "bit", nullable: false),
-                    CustomerId = table.Column<int>(type: "int", nullable: false),
                     IsRemoved = table.Column<bool>(type: "bit", nullable: false),
                     UpdateTime = table.Column<DateTime>(type: "datetime2", nullable: false),
                     RemoveTime = table.Column<DateTime>(type: "datetime2", nullable: true),
@@ -395,9 +393,9 @@ namespace BaretProject.Infrastructure.Migrations
                 {
                     table.PrimaryKey("PK_Order", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Order_Customer_CustomerId",
-                        column: x => x.CustomerId,
-                        principalTable: "Customer",
+                        name: "FK_Order_Customers_Id",
+                        column: x => x.Id,
+                        principalTable: "Customers",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -406,13 +404,10 @@ namespace BaretProject.Infrastructure.Migrations
                 name: "Wallet",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Id = table.Column<int>(type: "int", nullable: false),
                     IsPay = table.Column<bool>(type: "bit", nullable: false),
                     Amount = table.Column<int>(type: "int", nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    WalletTypeId = table.Column<int>(type: "int", nullable: false),
-                    CustomerId = table.Column<int>(type: "int", nullable: false),
                     IsRemoved = table.Column<bool>(type: "bit", nullable: false),
                     UpdateTime = table.Column<DateTime>(type: "datetime2", nullable: false),
                     RemoveTime = table.Column<DateTime>(type: "datetime2", nullable: true),
@@ -422,14 +417,14 @@ namespace BaretProject.Infrastructure.Migrations
                 {
                     table.PrimaryKey("PK_Wallet", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Wallet_Customer_CustomerId",
-                        column: x => x.CustomerId,
-                        principalTable: "Customer",
+                        name: "FK_Wallet_Customers_Id",
+                        column: x => x.Id,
+                        principalTable: "Customers",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Wallet_WalletType_WalletTypeId",
-                        column: x => x.WalletTypeId,
+                        name: "FK_Wallet_WalletType_Id",
+                        column: x => x.Id,
                         principalTable: "WalletType",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
@@ -517,9 +512,11 @@ namespace BaretProject.Infrastructure.Migrations
                 name: "OrderDetails",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false),
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     Price = table.Column<decimal>(type: "Money", nullable: false),
                     Count = table.Column<int>(type: "int", nullable: false),
+                    OrdersId = table.Column<int>(type: "int", nullable: false),
                     FoodId = table.Column<int>(type: "int", nullable: false),
                     IsRemoved = table.Column<bool>(type: "bit", nullable: false),
                     UpdateTime = table.Column<DateTime>(type: "datetime2", nullable: false),
@@ -536,10 +533,11 @@ namespace BaretProject.Infrastructure.Migrations
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_OrderDetails_Order_Id",
-                        column: x => x.Id,
+                        name: "FK_OrderDetails_Order_OrdersId",
+                        column: x => x.OrdersId,
                         principalTable: "Order",
-                        principalColumn: "Id");
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.InsertData(
@@ -547,9 +545,9 @@ namespace BaretProject.Infrastructure.Migrations
                 columns: new[] { "Id", "InsertTime", "IsRemoved", "RemoveTime", "Role", "UpdateTime" },
                 values: new object[,]
                 {
-                    { 1, new DateTime(2023, 8, 24, 16, 50, 9, 812, DateTimeKind.Local).AddTicks(5867), false, null, "Admin", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 2, new DateTime(2023, 8, 24, 16, 50, 9, 812, DateTimeKind.Local).AddTicks(5982), false, null, "Operator", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 3, new DateTime(2023, 8, 24, 16, 50, 9, 812, DateTimeKind.Local).AddTicks(5996), false, null, "Customer", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) }
+                    { 1, new DateTime(2023, 10, 10, 0, 31, 53, 216, DateTimeKind.Local).AddTicks(326), false, null, "Admin", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 2, new DateTime(2023, 10, 10, 0, 31, 53, 216, DateTimeKind.Local).AddTicks(369), false, null, "Operator", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 3, new DateTime(2023, 10, 10, 0, 31, 53, 216, DateTimeKind.Local).AddTicks(373), false, null, "Customer", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) }
                 });
 
             migrationBuilder.CreateIndex(
@@ -593,14 +591,14 @@ namespace BaretProject.Infrastructure.Migrations
                 column: "KitchenId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Order_CustomerId",
-                table: "Order",
-                column: "CustomerId");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_OrderDetails_FoodId",
                 table: "OrderDetails",
                 column: "FoodId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_OrderDetails_OrdersId",
+                table: "OrderDetails",
+                column: "OrdersId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_RolePermission_PermissionId",
@@ -608,25 +606,15 @@ namespace BaretProject.Infrastructure.Migrations
                 column: "PermissionId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_User_Email",
-                table: "User",
+                name: "IX_Userr_Email",
+                table: "Userr",
                 column: "Email",
                 unique: true);
 
             migrationBuilder.CreateIndex(
-                name: "IX_UserRole_UserId",
+                name: "IX_UserRole_RoleId",
                 table: "UserRole",
-                column: "UserId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Wallet_CustomerId",
-                table: "Wallet",
-                column: "CustomerId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Wallet_WalletTypeId",
-                table: "Wallet",
-                column: "WalletTypeId");
+                column: "RoleId");
         }
 
         /// <inheritdoc />
@@ -687,13 +675,13 @@ namespace BaretProject.Infrastructure.Migrations
                 name: "Menu");
 
             migrationBuilder.DropTable(
-                name: "Customer");
+                name: "Customers");
 
             migrationBuilder.DropTable(
                 name: "Kitchen");
 
             migrationBuilder.DropTable(
-                name: "User");
+                name: "Userr");
 
             migrationBuilder.DropTable(
                 name: "BusinessType");

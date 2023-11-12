@@ -74,3 +74,22 @@ C:\Users\rm\Desktop\baret project\textproject\BaretProject.Infrastructure\bin\De
 C:\Users\rm\Desktop\baret project\textproject\BaretProject.Infrastructure\bin\Debug\net6.0\BaretProject.Infrastructure.runtimeconfig.json
 C:\Users\rm\Desktop\baret project\textproject\BaretProject.Infrastructure\obj\Debug\net6.0\BaretProject.Infrastructure.genruntimeconfig.cache
 C:\Users\rm\Desktop\baret project\textproject\BaretProject.Infrastructure\obj\Debug\net6.0\ref\BaretProject.Infrastructure.dll
+C:\Users\rm\Desktop\barte2\textproject\BaretProject.Infrastructure\bin\Debug\net6.0\BaretProject.Application.dll
+C:\Users\rm\Desktop\barte2\textproject\BaretProject.Infrastructure\bin\Debug\net6.0\BaretProject.Domain.dll
+C:\Users\rm\Desktop\barte2\textproject\BaretProject.Infrastructure\bin\Debug\net6.0\BaretProject.Infrastructure.dll
+C:\Users\rm\Desktop\barte2\textproject\BaretProject.Infrastructure\bin\Debug\net6.0\BaretProject.Domain.pdb
+C:\Users\rm\Desktop\barte2\textproject\BaretProject.Infrastructure\bin\Debug\net6.0\BaretProject.Application.pdb
+C:\Users\rm\Desktop\barte2\textproject\BaretProject.Infrastructure\bin\Debug\net6.0\BaretProject.Infrastructure.pdb
+C:\Users\rm\Desktop\barte2\textproject\BaretProject.Infrastructure\obj\Debug\net6.0\BaretProject.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\rm\Desktop\barte2\textproject\BaretProject.Infrastructure\obj\Debug\net6.0\BaretProject.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rm\Desktop\barte2\textproject\BaretProject.Infrastructure\obj\Debug\net6.0\BaretProject.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\rm\Desktop\barte2\textproject\BaretProject.Infrastructure\obj\Debug\net6.0\BaretProject.Infrastructure.AssemblyInfo.cs
+C:\Users\rm\Desktop\barte2\textproject\BaretProject.Infrastructure\obj\Debug\net6.0\BaretProject.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\rm\Desktop\barte2\textproject\BaretProject.Infrastructure\obj\Debug\net6.0\BaretProject.Infrastructure.csproj.CopyComplete
+C:\Users\rm\Desktop\barte2\textproject\BaretProject.Infrastructure\obj\Debug\net6.0\BaretProject.Infrastructure.dll
+C:\Users\rm\Desktop\barte2\textproject\BaretProject.Infrastructure\obj\Debug\net6.0\refint\BaretProject.Infrastructure.dll
+C:\Users\rm\Desktop\barte2\textproject\BaretProject.Infrastructure\obj\Debug\net6.0\BaretProject.Infrastructure.pdb
+C:\Users\rm\Desktop\barte2\textproject\BaretProject.Infrastructure\bin\Debug\net6.0\BaretProject.Infrastructure.deps.json
+C:\Users\rm\Desktop\barte2\textproject\BaretProject.Infrastructure\bin\Debug\net6.0\BaretProject.Infrastructure.runtimeconfig.json
+C:\Users\rm\Desktop\barte2\textproject\BaretProject.Infrastructure\obj\Debug\net6.0\BaretProject.Infrastructure.genruntimeconfig.cache
+C:\Users\rm\Desktop\barte2\textproject\BaretProject.Infrastructure\obj\Debug\net6.0\ref\BaretProject.Infrastructure.dll

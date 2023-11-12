@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Application\\BaretProject.Application.csproj": {}
+    "C:\\Users\\rm\\Desktop\\barte2\\textproject\\BaretProject.Application\\BaretProject.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Application\\BaretProject.Application.csproj": {
+    "C:\\Users\\rm\\Desktop\\barte2\\textproject\\BaretProject.Application\\BaretProject.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Application\\BaretProject.Application.csproj",
+        "projectUniqueName": "C:\\Users\\rm\\Desktop\\barte2\\textproject\\BaretProject.Application\\BaretProject.Application.csproj",
         "projectName": "BaretProject.Application",
-        "projectPath": "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Application\\BaretProject.Application.csproj",
+        "projectPath": "C:\\Users\\rm\\Desktop\\barte2\\textproject\\BaretProject.Application\\BaretProject.Application.csproj",
         "packagesPath": "C:\\Users\\rm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Application\\obj\\",
+        "outputPath": "C:\\Users\\rm\\Desktop\\barte2\\textproject\\BaretProject.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rm\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj": {
-                "projectPath": "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj"
+              "C:\\Users\\rm\\Desktop\\barte2\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj": {
+                "projectPath": "C:\\Users\\rm\\Desktop\\barte2\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj"
               }
             }
           }
@@ -99,14 +99,14 @@
         }
       }
     },
-    "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj": {
+    "C:\\Users\\rm\\Desktop\\barte2\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\rm\\Desktop\\barte2\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj",
         "projectName": "BaretProject.Domain",
-        "projectPath": "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj",
+        "projectPath": "C:\\Users\\rm\\Desktop\\barte2\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj",
         "packagesPath": "C:\\Users\\rm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Domain\\obj\\",
+        "outputPath": "C:\\Users\\rm\\Desktop\\barte2\\textproject\\BaretProject.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rm\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -135,7 +135,27 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Hangfire": {
+              "target": "Package",
+              "version": "[1.8.6, )"
+            },
+            "Hangfire.AspNetCore": {
+              "target": "Package",
+              "version": "[1.8.6, )"
+            },
+            "Hangfire.Core": {
+              "target": "Package",
+              "version": "[1.8.6, )"
+            },
+            "Hangfire.SqlServer": {
+              "target": "Package",
+              "version": "[1.8.6, )"
+            },
             "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Caching.Redis": {
               "target": "Package",
               "version": "[2.2.0, )"
             },
@@ -146,6 +166,10 @@
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [

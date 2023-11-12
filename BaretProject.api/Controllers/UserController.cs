@@ -1,6 +1,8 @@
 ﻿using BaretProject.Application.DTOs.UserDTOs;
 using BaretProject.Application.Services.UserServices;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Caching.Distributed;
+using Newtonsoft.Json;
 
 namespace BaretProject.api.Controllers
 {
@@ -10,9 +12,11 @@ namespace BaretProject.api.Controllers
     {
         #region filed
         private readonly IUserService _userService;
-        public UserController(IUserService userService)
+        private readonly IDistributedCache _distributedCache;
+        public UserController(IUserService userService, IDistributedCache distributedCache)
         {
             _userService = userService;
+            _distributedCache = distributedCache;
         }
 
         #endregion
@@ -62,6 +66,40 @@ namespace BaretProject.api.Controllers
             var user = await _userService.UpdateUser(userDTO);
             return Ok(user);
         }
-       
+
+
+
+        [HttpGet]
+        public async Task<IActionResult> GetAsync()
+        {
+
+
+            #region DistributedCach
+
+            IEnumerable<UserItemDTO> _list;
+            string Data = await _distributedCache.GetStringAsync("User");
+            if (string.IsNullOrEmpty(Data))
+            {
+                _list = await _userService.GetAllUsers();
+                if (_list.Count() != 0)
+                {
+                    Data = JsonConvert.SerializeObject(_list);
+                }
+
+                var option = new DistributedCacheEntryOptions().SetSlidingExpiration(TimeSpan.FromSeconds(60));
+                await _distributedCache.SetStringAsync("User", Data, option);
+            }
+            else
+            {
+                _list = JsonConvert.DeserializeObject<IEnumerable<UserItemDTO>>(Data);
+            }
+
+
+            #endregion
+
+            
+
+            return Ok();
+        }
     }
 }

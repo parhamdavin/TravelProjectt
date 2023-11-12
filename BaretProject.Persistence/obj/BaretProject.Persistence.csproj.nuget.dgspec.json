@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Persistence\\BaretProject.Persistence.csproj": {}
+    "C:\\Users\\rm\\Desktop\\barte2\\textproject\\BaretProject.Persistence\\BaretProject.Persistence.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.api\\BaretProject.api.csproj": {
+    "C:\\Users\\rm\\Desktop\\barte2\\textproject\\BaretProject.api\\BaretProject.api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.api\\BaretProject.api.csproj",
+        "projectUniqueName": "C:\\Users\\rm\\Desktop\\barte2\\textproject\\BaretProject.api\\BaretProject.api.csproj",
         "projectName": "BaretProject.api",
-        "projectPath": "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.api\\BaretProject.api.csproj",
+        "projectPath": "C:\\Users\\rm\\Desktop\\barte2\\textproject\\BaretProject.api\\BaretProject.api.csproj",
         "packagesPath": "C:\\Users\\rm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.api\\obj\\",
+        "outputPath": "C:\\Users\\rm\\Desktop\\barte2\\textproject\\BaretProject.api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rm\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Application\\BaretProject.Application.csproj": {
-                "projectPath": "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Application\\BaretProject.Application.csproj"
+              "C:\\Users\\rm\\Desktop\\barte2\\textproject\\BaretProject.Application\\BaretProject.Application.csproj": {
+                "projectPath": "C:\\Users\\rm\\Desktop\\barte2\\textproject\\BaretProject.Application\\BaretProject.Application.csproj"
               },
-              "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Infrastructure\\BaretProject.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Infrastructure\\BaretProject.Infrastructure.csproj"
+              "C:\\Users\\rm\\Desktop\\barte2\\textproject\\BaretProject.Infrastructure\\BaretProject.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\rm\\Desktop\\barte2\\textproject\\BaretProject.Infrastructure\\BaretProject.Infrastructure.csproj"
               }
             }
           }
@@ -47,15 +47,35 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Hangfire.Core": {
+              "target": "Package",
+              "version": "[1.8.6, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.10, )"
+              "version": "[7.0.13, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Serilog.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog.Formatting.Compact": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
@@ -99,14 +119,14 @@
         }
       }
     },
-    "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Application\\BaretProject.Application.csproj": {
+    "C:\\Users\\rm\\Desktop\\barte2\\textproject\\BaretProject.Application\\BaretProject.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Application\\BaretProject.Application.csproj",
+        "projectUniqueName": "C:\\Users\\rm\\Desktop\\barte2\\textproject\\BaretProject.Application\\BaretProject.Application.csproj",
         "projectName": "BaretProject.Application",
-        "projectPath": "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Application\\BaretProject.Application.csproj",
+        "projectPath": "C:\\Users\\rm\\Desktop\\barte2\\textproject\\BaretProject.Application\\BaretProject.Application.csproj",
         "packagesPath": "C:\\Users\\rm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Application\\obj\\",
+        "outputPath": "C:\\Users\\rm\\Desktop\\barte2\\textproject\\BaretProject.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rm\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -123,8 +143,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj": {
-                "projectPath": "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj"
+              "C:\\Users\\rm\\Desktop\\barte2\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj": {
+                "projectPath": "C:\\Users\\rm\\Desktop\\barte2\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj"
               }
             }
           }
@@ -194,14 +214,14 @@
         }
       }
     },
-    "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj": {
+    "C:\\Users\\rm\\Desktop\\barte2\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\rm\\Desktop\\barte2\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj",
         "projectName": "BaretProject.Domain",
-        "projectPath": "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj",
+        "projectPath": "C:\\Users\\rm\\Desktop\\barte2\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj",
         "packagesPath": "C:\\Users\\rm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Domain\\obj\\",
+        "outputPath": "C:\\Users\\rm\\Desktop\\barte2\\textproject\\BaretProject.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rm\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -230,7 +250,27 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Hangfire": {
+              "target": "Package",
+              "version": "[1.8.6, )"
+            },
+            "Hangfire.AspNetCore": {
+              "target": "Package",
+              "version": "[1.8.6, )"
+            },
+            "Hangfire.Core": {
+              "target": "Package",
+              "version": "[1.8.6, )"
+            },
+            "Hangfire.SqlServer": {
+              "target": "Package",
+              "version": "[1.8.6, )"
+            },
             "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Caching.Redis": {
               "target": "Package",
               "version": "[2.2.0, )"
             },
@@ -241,6 +281,10 @@
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
@@ -277,14 +321,14 @@
         }
       }
     },
-    "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Infrastructure\\BaretProject.Infrastructure.csproj": {
+    "C:\\Users\\rm\\Desktop\\barte2\\textproject\\BaretProject.Infrastructure\\BaretProject.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Infrastructure\\BaretProject.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\rm\\Desktop\\barte2\\textproject\\BaretProject.Infrastructure\\BaretProject.Infrastructure.csproj",
         "projectName": "BaretProject.Infrastructure",
-        "projectPath": "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Infrastructure\\BaretProject.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\rm\\Desktop\\barte2\\textproject\\BaretProject.Infrastructure\\BaretProject.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\rm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\rm\\Desktop\\barte2\\textproject\\BaretProject.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rm\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -301,8 +345,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj": {
-                "projectPath": "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj"
+              "C:\\Users\\rm\\Desktop\\barte2\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj": {
+                "projectPath": "C:\\Users\\rm\\Desktop\\barte2\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj"
               }
             }
           }
@@ -376,14 +420,14 @@
         }
       }
     },
-    "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Persistence\\BaretProject.Persistence.csproj": {
+    "C:\\Users\\rm\\Desktop\\barte2\\textproject\\BaretProject.Persistence\\BaretProject.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Persistence\\BaretProject.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\rm\\Desktop\\barte2\\textproject\\BaretProject.Persistence\\BaretProject.Persistence.csproj",
         "projectName": "BaretProject.Persistence",
-        "projectPath": "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Persistence\\BaretProject.Persistence.csproj",
+        "projectPath": "C:\\Users\\rm\\Desktop\\barte2\\textproject\\BaretProject.Persistence\\BaretProject.Persistence.csproj",
         "packagesPath": "C:\\Users\\rm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Persistence\\obj\\",
+        "outputPath": "C:\\Users\\rm\\Desktop\\barte2\\textproject\\BaretProject.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rm\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -400,11 +444,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.api\\BaretProject.api.csproj": {
-                "projectPath": "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.api\\BaretProject.api.csproj"
+              "C:\\Users\\rm\\Desktop\\barte2\\textproject\\BaretProject.api\\BaretProject.api.csproj": {
+                "projectPath": "C:\\Users\\rm\\Desktop\\barte2\\textproject\\BaretProject.api\\BaretProject.api.csproj"
               },
-              "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj": {
-                "projectPath": "C:\\Users\\rm\\Desktop\\baret project\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj"
+              "C:\\Users\\rm\\Desktop\\barte2\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj": {
+                "projectPath": "C:\\Users\\rm\\Desktop\\barte2\\textproject\\BaretProject.Domain\\BaretProject.Domain.csproj"
               }
             }
           }

@@ -10,7 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BaretProject.Application.Services.Order
+namespace BaretProject.Application.Services.Orderees
 {
     public class OrderDetailsService: IOrderDetailsService
     {

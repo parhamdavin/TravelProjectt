@@ -1,6 +1,6 @@
 ﻿using BaretProject.Application.DTOs.Order;
 using BaretProject.Application.DTOs.OrderDetail;
-using BaretProject.Application.Services.Order;
+using BaretProject.Application.Services.Orderees;
 using BaretProject.Core.Domain;
 using Microsoft.AspNetCore.Mvc;
 

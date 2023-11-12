@@ -1,6 +1,6 @@
 ﻿namespace BaretProject.api.Controllers
 {
-    public class MenuController:
+    public class MenuController 
     {
     }
 }

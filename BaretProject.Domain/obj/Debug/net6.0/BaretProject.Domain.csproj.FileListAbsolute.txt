@@ -46,3 +46,18 @@ C:\Users\rm\Desktop\baret project\textproject\BaretProject.Domain\obj\Debug\net6
 C:\Users\rm\Desktop\baret project\textproject\BaretProject.Domain\obj\Debug\net6.0\refint\BaretProject.Domain.dll
 C:\Users\rm\Desktop\baret project\textproject\BaretProject.Domain\obj\Debug\net6.0\BaretProject.Domain.pdb
 C:\Users\rm\Desktop\baret project\textproject\BaretProject.Domain\obj\Debug\net6.0\ref\BaretProject.Domain.dll
+C:\Users\rm\Desktop\barte2\textproject\BaretProject.Domain\bin\Debug\net6.0\BaretProject.Domain.deps.json
+C:\Users\rm\Desktop\barte2\textproject\BaretProject.Domain\bin\Debug\net6.0\BaretProject.Domain.dll
+C:\Users\rm\Desktop\barte2\textproject\BaretProject.Domain\bin\Debug\net6.0\BaretProject.Domain.pdb
+C:\Users\rm\Desktop\barte2\textproject\BaretProject.Domain\obj\Debug\net6.0\BaretProject.Domain.csproj.AssemblyReference.cache
+C:\Users\rm\Desktop\barte2\textproject\BaretProject.Domain\obj\Debug\net6.0\BaretProject.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rm\Desktop\barte2\textproject\BaretProject.Domain\obj\Debug\net6.0\BaretProject.Domain.AssemblyInfoInputs.cache
+C:\Users\rm\Desktop\barte2\textproject\BaretProject.Domain\obj\Debug\net6.0\BaretProject.Domain.AssemblyInfo.cs
+C:\Users\rm\Desktop\barte2\textproject\BaretProject.Domain\obj\Debug\net6.0\BaretProject.Domain.csproj.CoreCompileInputs.cache
+C:\Users\rm\Desktop\barte2\textproject\BaretProject.Domain\obj\Debug\net6.0\BaretProject.Domain.dll
+C:\Users\rm\Desktop\barte2\textproject\BaretProject.Domain\obj\Debug\net6.0\refint\BaretProject.Domain.dll
+C:\Users\rm\Desktop\barte2\textproject\BaretProject.Domain\obj\Debug\net6.0\BaretProject.Domain.pdb
+C:\Users\rm\Desktop\barte2\textproject\BaretProject.Domain\obj\Debug\net6.0\ref\BaretProject.Domain.dll
+C:\Users\rm\Desktop\barte2\textproject\BaretProject.Domain\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\rm\Desktop\barte2\textproject\BaretProject.Domain\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\rm\Desktop\barte2\textproject\BaretProject.Domain\obj\Debug\net6.0\BaretProject.Domain.csproj.CopyComplete

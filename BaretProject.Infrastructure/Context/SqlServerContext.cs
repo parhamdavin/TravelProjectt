@@ -15,6 +15,29 @@ namespace BaretProject.Infrastructure.Context
             Builder.ApplyConfigurationsFromAssembly(typeof(SqlServerContext).Assembly);
             base.OnModelCreating(Builder);
         }
+        public override int SaveChanges()
+        {
+            try
+            {
+                return base.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                CleanContext();
+                throw ex;
+            }
+        }
 
+        private void CleanContext()
+        {
+            if (this.ChangeTracker.HasChanges())
+            {
+                var _list = this.ChangeTracker.Entries().Where(p => p.State == EntityState.Modified || p.State == EntityState.Added || p.State == EntityState.Deleted).ToList();
+                foreach (var item in _list)
+                {
+                    item.State = EntityState.Unchanged;
+                }
+            }
+        }
     }
 }

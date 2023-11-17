@@ -1,9 +1,12 @@
 ﻿using BaretProject.Domain.Infrast;
 using GreenPipes.Filters;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Microsoft.OpenApi.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -49,6 +52,30 @@ namespace BaretProject.Persistence.Infrat
 
             ////Global
             //services.AddMvc().AddMvcOptions(c => c.Filters.AddService(typeof(LogFilter)));
+            services.AddSwaggerGen(
+           c =>
+           {
+               c.SwaggerDoc("v1.0", new OpenApiInfo
+               {
+                   Version = "ورژن یک",
+                   Title = " وب سرویس آزانس مسافرتی ",
+                   Description = " در این وب سرویس مشخصات آزانس مسافرتی شرح داده می شود",
+                   TermsOfService = new Uri("https://example.com/terms"),
+                   Contact = new OpenApiContact
+                   {
+                       Name = "Davin Team",
+                       Email = string.Empty,
+                       Url = new Uri("https://twitter.com/"),
+                   },
+                   License = new OpenApiLicense
+                   {
+                       Name = "Use under LICX",
+                       Url = new Uri("https://example.com/license"),
+                   }
+               }
+           );
+           });
+
         }
 
         public void Configure(IApplicationBuilder app)
@@ -60,7 +87,18 @@ namespace BaretProject.Persistence.Infrat
             {
                 endpoint.MapControllers();
             });
+            IWebHostEnvironment env = app.ApplicationServices.GetService(typeof(IWebHostEnvironment)) as IWebHostEnvironment;
+            if (env.IsDevelopment())
+            {
+                app.UseSwagger();
+                app.UseSwaggerUI(c =>
 
+                        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Baret API V1")
+                    );
+
+                //app.UseSwaggerUI();
+
+            }
 
 
         }

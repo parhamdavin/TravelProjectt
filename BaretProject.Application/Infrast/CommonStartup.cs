@@ -1,4 +1,5 @@
 ﻿using BaretProject.Application.Contracts.Repositories;
+using BaretProject.Application.Extention;
 using BaretProject.Application.Services.BusinessTypeServices;
 using BaretProject.Application.Services.Citys;
 using BaretProject.Application.Services.CityService;
@@ -33,6 +34,7 @@ namespace BaretProject.Application.Infart
         public MiddleWarePriority Priority => MiddleWarePriority.Normal;
         public void ConfigureServices(IServiceCollection services, IConfiguration configuration)
         {
+            services.AddScoped<LogFilter>();
             services.AddScoped<ICustomerService,CustomerService>();
             services.AddScoped<ICityService, CityService>();
             services.AddScoped<IFoodService, FoodService>();

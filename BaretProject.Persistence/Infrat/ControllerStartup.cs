@@ -1,5 +1,6 @@
 ﻿using BaretProject.Domain.Infrast;
 using GreenPipes.Filters;
+using Hangfire.Common;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -75,6 +76,7 @@ namespace BaretProject.Persistence.Infrat
                }
            );
            });
+            services.AddMvc().AddMvcOptions(c => c.Filters.AddService(typeof(LogFilter)));
 
         }
 

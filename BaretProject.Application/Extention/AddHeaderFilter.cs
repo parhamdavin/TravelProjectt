@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace shop.Service.Infrastructure.Filter
+namespace BaretProject.Service.Infrastructure.Filter
 {
     public class AddHeaderAttribute : Attribute, IAsyncResultFilter
     {

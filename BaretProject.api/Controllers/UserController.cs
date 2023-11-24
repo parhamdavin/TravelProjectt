@@ -1,4 +1,5 @@
 ﻿using BaretProject.Application.DTOs.UserDTOs;
+using BaretProject.Application.Extention;
 using BaretProject.Application.Services.UserServices;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Distributed;
@@ -70,6 +71,7 @@ namespace BaretProject.api.Controllers
 
 
         [HttpGet]
+        [ServiceFilter(typeof(LogFilter))]
         public async Task<IActionResult> GetAsync()
         {
 

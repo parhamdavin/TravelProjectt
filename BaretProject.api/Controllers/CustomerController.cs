@@ -20,6 +20,7 @@ namespace BaretProject.api.Controllers
         #endregion
 
         [HttpGet("FindById/{id}")]
+        
         public async Task<IActionResult> FindById(int id)
         {
 
